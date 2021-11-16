@@ -22,15 +22,23 @@ public class WindowsTicketsExtendsThread {
 
 class Window extends Thread {
     private static int ticket = 100;
-
+    private static Object obj = new Object();  // static保证多个线程共用同一把锁
     @Override
     public void run() {
         while (true) {
-            if (ticket > 0) {
-                System.out.println(getName() + ":" + ticket);
-                ticket--;
-            } else {
-                break;
+            synchronized(Window.class) {
+//            synchronized(obj) {
+                if (ticket > 0) {
+                    try {
+                        Thread.sleep(10);
+                    } catch (InterruptedException e) {
+                        e.printStackTrace();
+                    }
+                    System.out.println(getName() + ":" + ticket);
+                    ticket--;
+                } else {
+                    break;
+                }
             }
         }
     }
