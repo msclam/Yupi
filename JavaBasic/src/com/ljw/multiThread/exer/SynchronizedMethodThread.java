@@ -31,7 +31,7 @@ class Window3 extends Thread {
         }
     }
 
-    private static synchronized void show() {  
+    private static synchronized void show() {
         if (ticket > 0) {
             try {
                 Thread.sleep(10);
