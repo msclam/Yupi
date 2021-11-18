@@ -2,24 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/SimpleDateFormatTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/CallableTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/LockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/ProductorAndConsumer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/ThreadCommunicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/ThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/exer/AccountTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTon/EHan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTon/Lhan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTon/SingleTonTest1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTon/SingleTonTest2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTonThreadSafe/BankTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTonThreadSafe/DeadLock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/stringLearn/exer/GetMaxSameString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/stringLearn/exer/IdeaDebug.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/stringLearn/exer/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/CalenderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/InstanctTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/LocalDateTimeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/OtherClassTest/BigIntegerAndBigDecimalTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/OtherClassTest/SystemTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/MultiThreadPrintNums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/CompareTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Goods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/exer/SynchronizedMethodThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/multiThread/exer/SynchronizedMethodThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +62,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaBasic/src/com/ljw/singleTon" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.14084506" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
@@ -86,7 +77,7 @@
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SimpleDateFormatTest.test2">
+  <component name="RunManager" selected="JUnit.SystemTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -98,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IdeaDebug" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.stringLearn.exer.IdeaDebug" />
+    <configuration name="MultiThreadPrintNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.MultiThreadPrintNums" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.stringLearn.exer.*" />
+          <option name="PATTERN" value="com.ljw.Test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,64 +102,62 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GetMaxSameString.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ThreadCommunicationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.multiThread.ThreadCommunicationTest" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.stringLearn.exer.*" />
+          <option name="PATTERN" value="com.ljw.multiThread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.stringLearn.exer" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.stringLearn.exer.GetMaxSameString" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleDateFormatTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompareTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.DateFormat.*" />
+          <option name="PATTERN" value="com.ljw.compareTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.DateFormat" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.DateFormat.SimpleDateFormatTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleDateFormatTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.DateFormat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.DateFormat" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.DateFormat.SimpleDateFormatTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleDateFormatTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.DateFormat.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.DateFormat" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.DateFormat.SimpleDateFormatTest" />
+      <option name="PACKAGE_NAME" value="com.ljw.compareTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.compareTest.CompareTest" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CompareTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.compareTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.compareTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.compareTest.CompareTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SystemTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.OtherClassTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.OtherClassTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.OtherClassTest.SystemTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -176,11 +165,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SimpleDateFormatTest.test2" />
-        <item itemvalue="JUnit.SimpleDateFormatTest.test1" />
-        <item itemvalue="JUnit.SimpleDateFormatTest" />
-        <item itemvalue="Application.IdeaDebug" />
-        <item itemvalue="JUnit.GetMaxSameString.test" />
+        <item itemvalue="JUnit.SystemTest.test" />
+        <item itemvalue="Application.MultiThreadPrintNums" />
+        <item itemvalue="Application.ThreadCommunicationTest" />
+        <item itemvalue="JUnit.CompareTest.test3" />
+        <item itemvalue="JUnit.CompareTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +195,7 @@
       <workItem from="1636962274807" duration="3432000" />
       <workItem from="1636966358509" duration="2693000" />
       <workItem from="1636990239370" duration="7626000" />
-      <workItem from="1637079306104" duration="19894000" />
+      <workItem from="1637079306104" duration="30349000" />
     </task>
     <servers />
   </component>
