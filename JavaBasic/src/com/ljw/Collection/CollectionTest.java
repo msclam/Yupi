@@ -1,6 +1,6 @@
 package com.ljw.Collection;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.Collection;
