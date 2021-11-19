@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/AnnotationTest/MyAnnotation.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/AnnotationTest/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/EnumClass/EnumDefSeason.java" afterDir="false" />
@@ -9,6 +10,9 @@
       <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionTest.java" afterDir="false" />
+>>>>>>> fddb7bb56e0aa8d53c22e33db627593c00487a2a
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +195,12 @@
       <workItem from="1636962274807" duration="3432000" />
       <workItem from="1636966358509" duration="2693000" />
       <workItem from="1636990239370" duration="7626000" />
+<<<<<<< HEAD
       <workItem from="1637079306104" duration="38994000" />
+=======
+      <workItem from="1637079306104" duration="30349000" />
+      <workItem from="1637232918052" duration="614000" />
+>>>>>>> fddb7bb56e0aa8d53c22e33db627593c00487a2a
     </task>
     <servers />
   </component>
