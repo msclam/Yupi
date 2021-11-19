@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-<<<<<<< HEAD
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/AnnotationTest/MyAnnotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/AnnotationTest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/EnumClass/EnumDefSeason.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/EnumClass/SeaconTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/IteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
       <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionTest.java" afterDir="false" />
->>>>>>> fddb7bb56e0aa8d53c22e33db627593c00487a2a
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +73,7 @@
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTest.test1">
+  <component name="RunManager" selected="JUnit.CollectionTest.test">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -92,41 +85,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumDefSeason" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.EnumClass.EnumDefSeason" />
+    <configuration name="CollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.EnumClass.*" />
+          <option name="PATTERN" value="com.ljw.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeaconTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.EnumClass.SeaconTest" />
+    <configuration name="CollectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.EnumClass.*" />
+          <option name="PATTERN" value="com.ljw.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.compareTest.Test" />
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.compareTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,17 +132,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.AnnotationTest.*" />
+          <option name="PATTERN" value="com.ljw.Collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.AnnotationTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.AnnotationTest.Person" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -165,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CollectionTest.test" />
+        <item itemvalue="JUnit.CollectionTest.test3" />
+        <item itemvalue="JUnit.CollectionTest.test2" />
         <item itemvalue="JUnit.CollectionTest.test1" />
-        <item itemvalue="JUnit.Person.test" />
-        <item itemvalue="Application.EnumDefSeason" />
-        <item itemvalue="Application.SeaconTest" />
-        <item itemvalue="Application.Test" />
+        <item itemvalue="JUnit.CollectionTest" />
       </list>
     </recent_temporary>
   </component>
@@ -195,12 +196,9 @@
       <workItem from="1636962274807" duration="3432000" />
       <workItem from="1636966358509" duration="2693000" />
       <workItem from="1636990239370" duration="7626000" />
-<<<<<<< HEAD
       <workItem from="1637079306104" duration="38994000" />
-=======
       <workItem from="1637079306104" duration="30349000" />
       <workItem from="1637232918052" duration="614000" />
->>>>>>> fddb7bb56e0aa8d53c22e33db627593c00487a2a
     </task>
     <servers />
   </component>
