@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/CalenderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/InstanctTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/DateFormat/LocalDateTimeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/OtherClassTest/BigIntegerAndBigDecimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/OtherClassTest/SystemTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/MultiThreadPrintNums.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/CompareTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Goods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/AnnotationTest/MyAnnotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/AnnotationTest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/EnumClass/EnumDefSeason.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/EnumClass/SeaconTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/compareTest/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -77,7 +76,7 @@
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.SystemTest.test">
+  <component name="RunManager" selected="JUnit.CollectionTest.test1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -89,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreadPrintNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.MultiThreadPrintNums" />
+    <configuration name="EnumDefSeason" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.EnumClass.EnumDefSeason" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.Test.*" />
+          <option name="PATTERN" value="com.ljw.EnumClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadCommunicationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.multiThread.ThreadCommunicationTest" />
+    <configuration name="SeaconTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.EnumClass.SeaconTest" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.multiThread.*" />
+          <option name="PATTERN" value="com.ljw.EnumClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,7 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.compareTest.Test" />
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -123,40 +123,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.compareTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.compareTest.CompareTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompareTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Person.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.compareTest.*" />
+          <option name="PATTERN" value="com.ljw.AnnotationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.compareTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.compareTest.CompareTest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SystemTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.OtherClassTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.OtherClassTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.OtherClassTest.SystemTest" />
+      <option name="PACKAGE_NAME" value="com.ljw.AnnotationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.AnnotationTest.Person" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -165,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SystemTest.test" />
-        <item itemvalue="Application.MultiThreadPrintNums" />
-        <item itemvalue="Application.ThreadCommunicationTest" />
-        <item itemvalue="JUnit.CompareTest.test3" />
-        <item itemvalue="JUnit.CompareTest.test2" />
+        <item itemvalue="JUnit.CollectionTest.test1" />
+        <item itemvalue="JUnit.Person.test" />
+        <item itemvalue="Application.EnumDefSeason" />
+        <item itemvalue="Application.SeaconTest" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +191,7 @@
       <workItem from="1636962274807" duration="3432000" />
       <workItem from="1636966358509" duration="2693000" />
       <workItem from="1636990239370" duration="7626000" />
-      <workItem from="1637079306104" duration="30349000" />
+      <workItem from="1637079306104" duration="38994000" />
     </task>
     <servers />
   </component>
