@@ -2,9 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/IteratorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/ForEach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/ListTest/ListTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/ListTest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/MapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/PropertiesTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/SetTest/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/SetTest/SetTestCase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/HashSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/MyDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/TreeSetTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/IteratorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +75,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="project.structure.side.proportion" value="0.14084506" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -72,8 +86,12 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljw.Collection.SetTest" />
+      <recent name="com.ljw.Collection.ListTest" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.CollectionTest.test">
+  <component name="RunManager" selected="JUnit.CollectionsTest.test1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -85,7 +103,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -94,29 +112,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionsTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CollectionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
@@ -125,40 +128,55 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionsTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionsTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PropertiesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="PATTERN" value="com.ljw.Collection.MapTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.ljw.Collection.MapTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.MapTest.PropertiesTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PropertiesTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="PATTERN" value="com.ljw.Collection.MapTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionTest" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="PACKAGE_NAME" value="com.ljw.Collection.MapTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.MapTest.PropertiesTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CollectionTest.test" />
-        <item itemvalue="JUnit.CollectionTest.test3" />
-        <item itemvalue="JUnit.CollectionTest.test2" />
-        <item itemvalue="JUnit.CollectionTest.test1" />
-        <item itemvalue="JUnit.CollectionTest" />
+        <item itemvalue="JUnit.CollectionsTest.test1" />
+        <item itemvalue="JUnit.CollectionsTest.test (1)" />
+        <item itemvalue="JUnit.CollectionsTest.test" />
+        <item itemvalue="JUnit.PropertiesTest.test" />
+        <item itemvalue="JUnit.PropertiesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -199,6 +217,7 @@
       <workItem from="1637079306104" duration="38994000" />
       <workItem from="1637079306104" duration="30349000" />
       <workItem from="1637232918052" duration="614000" />
+      <workItem from="1637476597438" duration="11432000" />
     </task>
     <servers />
   </component>
