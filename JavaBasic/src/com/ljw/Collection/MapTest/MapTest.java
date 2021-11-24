@@ -86,6 +86,11 @@ public class MapTest {
             System.out.println(entry.getKey());
             System.out.println(entry.getValue());
         }
+
+        Map<Character, Integer> mp = new HashMap<>();
+        for (Map.Entry<Character, Integer> entry : mp.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
     }
 
     @Test
@@ -127,5 +132,19 @@ public class MapTest {
                 }
             }
         });
+    }
+
+    @Test
+    public void test6() {
+        Map<String, String> map = new HashMap<>();
+        // 一
+        for (String key : map.keySet()) {
+            System.out.println(key + " " + map.get(key));
+        }
+
+        // 二
+        for (Map.Entry<String, String> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
     }
 }

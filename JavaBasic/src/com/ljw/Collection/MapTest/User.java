@@ -4,7 +4,7 @@ package com.ljw.Collection.MapTest;
  * @author lanjuwen
  * @create 2021-11-22  0:27
  */
-public class User implements Comparable {
+public class User implements Comparable<User> {
 
     private String name;
     private int age;
@@ -42,16 +42,25 @@ public class User implements Comparable {
     }
 
     @Override
-    public int compareTo(Object o) {
-       if (o instanceof User) {
-           User user = (User) o;
-           if (this.getName().compareTo(user.getName()) != 0) {
-               return -this.getName().compareTo(user.getName());
-           } else {
-                return Integer.compare(this.getAge(), user.getAge());
-           }
-       } else {
-           throw new RuntimeException();
-       }
+    public int compareTo(User o) {
+        if (this.getName().compareTo(o.getName()) != 0) {
+            return -this.getName().compareTo(o.getName());
+        } else {
+            return Integer.compare(this.getAge(), o.getAge());
+        }
     }
+
+//    @Override
+//    public int compareTo(Object o) {
+//       if (o instanceof User) {
+//           User user = (User) o;
+//           if (this.getName().compareTo(user.getName()) != 0) {
+//               return -this.getName().compareTo(user.getName());
+//           } else {
+//                return Integer.compare(this.getAge(), user.getAge());
+//           }
+//       } else {
+//           throw new RuntimeException();
+//       }
+//    }
 }

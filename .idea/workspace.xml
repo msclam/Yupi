@@ -2,24 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollectionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/ListTest/ListTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/ListTest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/MapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/PropertiesTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/SetTest/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/SetTest/SetTestCase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/HashSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/MyDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/exer/TreeSetTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarlCode/CarlCode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CarlCode/src/数组/二分查找/二分查找_704.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/IteratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/IteratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/MapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/User.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +54,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -218,6 +212,7 @@
       <workItem from="1637079306104" duration="30349000" />
       <workItem from="1637232918052" duration="614000" />
       <workItem from="1637476597438" duration="11432000" />
+      <workItem from="1637669959155" duration="6550000" />
     </task>
     <servers />
   </component>
@@ -235,6 +230,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
