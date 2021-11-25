@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CarlCode/CarlCode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarlCode/src/数组/二分查找/二分查找_704.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer/CustomerDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer/DAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer/DAOTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/MapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/MapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/MapTest/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/GenericClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/GenericClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,7 +208,7 @@
       <workItem from="1637079306104" duration="30349000" />
       <workItem from="1637232918052" duration="614000" />
       <workItem from="1637476597438" duration="11432000" />
-      <workItem from="1637669959155" duration="6550000" />
+      <workItem from="1637669959155" duration="11952000" />
     </task>
     <servers />
   </component>
