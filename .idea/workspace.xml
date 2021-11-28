@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/GenericExtends.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer1/DAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer1/DAOTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/exer1/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/File/FileTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/File/hello.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +77,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DAOTest">
+  <component name="RunManager" selected="JUnit.FileTest.test3">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -106,65 +102,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsTest.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="PATTERN" value="com.ljw.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionsTest" />
+      <option name="PACKAGE_NAME" value="com.ljw.File" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.File.FileTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionsTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.*" />
+          <option name="PATTERN" value="com.ljw.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionsTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CollectionsTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.CollectionsTest" />
+      <option name="PACKAGE_NAME" value="com.ljw.File" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.File.FileTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PropertiesTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FileTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.Collection.MapTest.*" />
+          <option name="PATTERN" value="com.ljw.File.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.Collection.MapTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Collection.MapTest.PropertiesTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ljw.File" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.File.FileTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FileTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.File.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.File" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.File.FileTest" />
+      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -172,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.FileTest.test3" />
+        <item itemvalue="JUnit.FileTest.test2" />
+        <item itemvalue="JUnit.FileTest.test" />
+        <item itemvalue="JUnit.FileTest.test1" />
         <item itemvalue="Application.DAOTest" />
-        <item itemvalue="JUnit.CollectionsTest.test1" />
-        <item itemvalue="JUnit.CollectionsTest.test (1)" />
-        <item itemvalue="JUnit.CollectionsTest.test" />
-        <item itemvalue="JUnit.PropertiesTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +203,7 @@
       <workItem from="1637232918052" duration="614000" />
       <workItem from="1637476597438" duration="11432000" />
       <workItem from="1637669959155" duration="11952000" />
-      <workItem from="1637857275275" duration="2919000" />
+      <workItem from="1637857275275" duration="8038000" />
     </task>
     <servers />
   </component>
