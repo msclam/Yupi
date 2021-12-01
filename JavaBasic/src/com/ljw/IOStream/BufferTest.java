@@ -57,4 +57,42 @@ public class BufferTest {
 //        fis.close();
         }
     }
+
+    @Test
+    public void bufferReaderAndWriter() {
+        BufferedReader br = null;
+        BufferedWriter bw = null;
+        try {
+            br = new BufferedReader(new FileReader(new File("")));
+            bw = new BufferedWriter(new FileWriter(new File("")));
+
+            char[] buffer = new char[1024];
+            int len;
+//            while ((len = br.read(buffer)) != -1) {
+//                bw.write(buffer, 0, len);
+//            }
+            String str;
+            while ((str = br.readLine()) != null) {
+                bw.write(str);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            if (bw != null) {
+                try {
+                    bw.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+
+            if (br != null) {
+                try {
+                    br.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
+    }
 }
