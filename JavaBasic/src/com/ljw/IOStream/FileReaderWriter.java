@@ -2,10 +2,9 @@ package com.ljw.IOStream;
 
 import org.junit.Test;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.FileWriter;
-import java.io.IOException;
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class FileReaderWriter {
     public static void main(String[] args) {
@@ -47,6 +46,7 @@ public class FileReaderWriter {
             }
         }
     }
+
     @Test
     public void test2() throws IOException {
         // 1 File实例化
@@ -95,7 +95,7 @@ public class FileReaderWriter {
         } finally {
             try {
                 if (fw != null)
-                fw.close();
+                    fw.close();
             } catch (IOException e) {
                 e.printStackTrace();
             }
@@ -123,17 +123,28 @@ public class FileReaderWriter {
         } finally {
             try {
                 if (fw != null)
-                fw.close();
+                    fw.close();
             } catch (IOException e) {
                 e.printStackTrace();
             } finally {
                 try {
                     if (fr != null)
-                    fr.close();
+                        fr.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         }
     }
+
+    @Test
+    public void test5() {
+        String s = "abcdefg";
+        System.out.println(s.substring(2, 4));
+
+        List<List<Integer>> list = new ArrayList<>();
+
+    }
+
+
 }
