@@ -3,6 +3,8 @@ package com.ljw.IOStream;
 import org.junit.Test;
 
 import java.io.*;
+import java.util.Deque;
+import java.util.LinkedList;
 
 public class BufferTest {
     @Test
@@ -59,6 +61,7 @@ public class BufferTest {
     }
 
     @Test
+<<<<<<< Updated upstream
     public void bufferReaderAndWriter() {
         BufferedReader br = null;
         BufferedWriter bw = null;
@@ -94,5 +97,39 @@ public class BufferTest {
                 }
             }
         }
+=======
+    public void test() {
+//        int[] arr = new int[]{0, 6, -10, 2, 99, -99};
+//        Arrays.sort(arr, ( Integer a, Integer b) -> { return b-a;});
+
+        // 方式一
+//        PriorityQueue<Integer> q = new PriorityQueue<>(new Comparator<Integer>(){
+//            @Override
+//            public int compare(Integer o1, Integer o2) {
+//                return o2 - o1;
+//            }
+//        });
+//
+//        q.offer(1);
+//        q.offer(2);
+//        System.out.println(q.peek());
+//
+//        PriorityQueue<Integer> queue = new PriorityQueue<>((o1, o2)-> o2 - o1);
+//        queue.offer(123);
+//        queue.offer(0);
+//        queue.offer(12);
+//
+//        while (!queue.isEmpty()) {
+//            System.out.println(queue.poll());
+//        }
+
+
+        Deque<Integer> deque = new LinkedList<>();
+        deque.push(1);
+        deque.push(2);
+        deque.push(3);
+        System.out.println(deque);
+
+>>>>>>> Stashed changes
     }
 }
