@@ -61,7 +61,6 @@ public class BufferTest {
     }
 
     @Test
-<<<<<<< Updated upstream
     public void bufferReaderAndWriter() {
         BufferedReader br = null;
         BufferedWriter bw = null;
@@ -97,7 +96,9 @@ public class BufferTest {
                 }
             }
         }
-=======
+
+    }
+
     public void test() {
 //        int[] arr = new int[]{0, 6, -10, 2, 99, -99};
 //        Arrays.sort(arr, ( Integer a, Integer b) -> { return b-a;});
@@ -129,7 +130,5 @@ public class BufferTest {
         deque.push(2);
         deque.push(3);
         System.out.println(deque);
-
->>>>>>> Stashed changes
     }
 }

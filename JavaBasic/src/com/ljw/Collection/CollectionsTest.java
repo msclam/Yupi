@@ -34,17 +34,20 @@ public class CollectionsTest {
 
     @Test
     public void test1() {
-        List list = new ArrayList();
-        list.add(123);
-        list.add(43);
-        list.add(765);
-        list.add(-97);
-        list.add(0);
+//        List list = new ArrayList();
+//        list.add(123);
+//        list.add(43);
+//        list.add(765);
+//        list.add(-97);
+//        list.add(0);
+//
+//        List list1 = Arrays.asList(new Integer[list.size()]);
+//        System.out.println(list1);
+//
+//        Collections.copy(list1, list);
+//        System.out.println(list1);
 
-        List list1 = Arrays.asList(new Integer[list.size()]);
-        System.out.println(list1);
-
-        Collections.copy(list1, list);
-        System.out.println(list1);
+        int[] arr = new int[]{0, -1, 9};
+//        Arrays.sort(arr, (a, b)-> a - b);
     }
 }
