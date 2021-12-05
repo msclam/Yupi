@@ -9,13 +9,15 @@ import java.util.Stack;
 public class CollTest {
     @Test
     public void test() {
-        Deque<Integer> q = new LinkedList<>();
+//        Deque<Integer> q = new LinkedList<>();
 //        q.add(1);
 //        q.add(2);
 //        q.add(3);
+//
+//        System.out.println(q.peekFirst());
+//
+//        Stack<Integer> st = new Stack<>();
 
-        System.out.println(q.peekFirst());
-
-        Stack<Integer> st = new Stack<>();
+        System.out.println("test".toString());
     }
 }
