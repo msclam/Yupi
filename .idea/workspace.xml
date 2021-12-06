@@ -10,32 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dea78e02-7b2c-442f-b502-79fc4d167b0e" name="Default" comment="commit all">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/InetAddressTEst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/TCPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/UDPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/ObjectInputOutputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/People.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/RandomAccessFileTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/hi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/hi.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/TransferStream.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/TransferStream.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JzOffer/JzOffer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JzOffer/JzOffer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToyProgram/Program01/Program01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ToyProgram/Program01/Program01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/CarlCode/数组/二分查找/二分查找_704.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/TransferStream.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/TransferStream.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JzOffer/J1_二维数组中的查找.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JzOffer/ListNode.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JzOffer/链表设计.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Program01/FamilyAccount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Program01/Utility.class" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/mavendemo/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +46,7 @@
       <file leaf-file-name="ObjectInputOutputStreamTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/ObjectInputOutputStreamTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="1254">
               <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -79,8 +58,8 @@
       <file leaf-file-name="InetAddressTEst.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/InetAddressTEst.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+            <state relative-caret-position="266">
+              <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,8 +70,8 @@
       <file leaf-file-name="TCPTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/TCPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-19">
-              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+            <state relative-caret-position="399">
+              <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,8 +82,8 @@
       <file leaf-file-name="UDPTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/UDPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+            <state relative-caret-position="304">
+              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +94,8 @@
       <file leaf-file-name="RandomAccessFileTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/RandomAccessFileTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="950">
+              <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -133,7 +112,7 @@
         <entry file="file://$PROJECT_DIR$/JavaBasic/hi.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -245,11 +224,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="60" />
-    <option name="y" value="92" />
+    <option name="y" value="91" />
     <option name="width" value="1750" />
-    <option name="height" value="1037" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectId" id="21oEe1cWDJ62Lvik3FHmyZrqwo6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -258,8 +237,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,7 +274,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -621,6 +600,7 @@
       <workItem from="1638609245806" duration="575000" />
       <workItem from="1638609884052" duration="261000" />
       <workItem from="1638610267469" duration="980000" />
+      <workItem from="1638759206561" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
@@ -665,7 +645,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31129000" />
+    <option name="totallyTimeSpent" value="32324000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,7 +657,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="74" width="1400" height="829" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50067025" side_tool="true" weight="0.35302806" />
@@ -692,7 +673,6 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52141804" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293944" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.43279174" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3293944" />
@@ -701,7 +681,7 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.41017964" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.25553915" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22131148" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info anchor="bottom" id="Problems" order="8" weight="0.3293944" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -710,13 +690,14 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="9" weight="0.3293944" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.43279174" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -735,6 +716,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit all" />
@@ -761,13 +745,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -781,13 +759,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -836,13 +808,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console_1.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1051,14 +1017,14 @@
     <entry file="file://$PROJECT_DIR$/JavaBasic/hi.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/RandomAccessFileTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="950">
+          <caret line="54" column="38" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1067,7 +1033,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/ObjectInputOutputStreamTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="1254">
           <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1077,8 +1043,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/InetAddressTEst.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="17" column="67" lean-forward="true" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
+        <state relative-caret-position="266">
+          <caret line="17" column="67" selection-start-line="17" selection-start-column="67" selection-end-line="17" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1087,8 +1053,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/TCPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-19">
-          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+        <state relative-caret-position="399">
+          <caret line="26" column="27" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1097,8 +1063,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/UDPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+        <state relative-caret-position="304">
+          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
