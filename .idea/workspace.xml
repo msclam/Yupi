@@ -5,31 +5,27 @@
       <artifact name="JavaWeb:Web exploded" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CarlCode/src/数组/数组.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CarlCode/src/数组/数组.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JzOffer/JzOffer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JzOffer/JzOffer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToyProgram/Program01/Program01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ToyProgram/Program01/Program01.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/src/main/java/com/atguigu/maven/mavendemo/MavendemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/src/main/java/com/atguigu/maven/mavendemo/MavendemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mavendemo/src/test/java/com/atguigu/maven/mavendemo/MavendemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/mavendemo/src/test/java/com/atguigu/maven/mavendemo/MavendemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/TCPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/TCPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" afterDir="false" />
     </list>
-    <option name="TRACKING_ENABLED" value="true" />
+    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -61,11 +57,33 @@
     </expand>
     <select />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/FileInputStreamOutputStream.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -107,7 +125,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="483" />
     <option name="y" value="97" />
     <option name="width" value="1400" />
@@ -120,20 +138,46 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="Yupi" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MavenDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ljw" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ljw" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -148,13 +192,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaWeb" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -171,70 +216,103 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Tomcat Server.index.jsp">
+  <component name="RunManager" selected="JUnit.ReflectionTest.test4">
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.ForTest" />
+      <module name="JavaBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReflectionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="test4" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MavendemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MavenDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.maven.mavendemo.MavendemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
+    <configuration default="true" type="TestNG">
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method>
+      <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -250,11 +328,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_Yupi" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="javadebug" />
       </RunnerSettings>
@@ -303,7 +381,8 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="JavaWeb:Web exploded" />
         </option>
@@ -321,11 +400,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="index_jsp_Yupi_2" />
       </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -341,77 +420,88 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method>
+      <method v="2">
+        <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="JavaWeb:Web exploded" />
         </option>
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ForTest" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
       <item itemvalue="Tomcat Server.index.jsp" />
+      <item itemvalue="JUnit.ReflectionTest.test2" />
+      <item itemvalue="JUnit.ReflectionTest.test3" />
+      <item itemvalue="JUnit.ReflectionTest.test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ReflectionTest.test4" />
+        <item itemvalue="JUnit.ReflectionTest.test3" />
+        <item itemvalue="JUnit.ReflectionTest.test2" />
+        <item itemvalue="Application.ForTest" />
         <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="216735f7-4dfe-4a3b-ad40-34a3dbb457cc" name="Default" comment="" />
+      <changelist id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="" />
       <created>1638783264490</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638783264490</updated>
-      <workItem from="1638783266994" duration="2817000" />
+      <workItem from="1638783266994" duration="3614000" />
+      <workItem from="1638844298912" duration="2275000" />
+      <workItem from="1638861086819" duration="6532000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2817000" />
+    <option name="totallyTimeSpent" value="5889000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Application Servers" weight="0.32922733" />
-      <window_info anchor="right" id="Maven Projects" weight="0.38006395" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
-      <window_info anchor="right" id="Database" weight="0.18390192" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32922733" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.38006395" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18390192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4949608" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.124200426" />
-      <window_info id="Web" side_tool="true" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="bottom" id="Database Console" weight="0.32922733" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922733" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3538634" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32922733" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +512,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/FileInputStreamOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/JavaWeb/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -443,6 +550,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/FileInputStreamOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+          <folding>
+            <element signature="e#143#144#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#697#698#0" expanded="true" />
+            <element signature="e#740#741#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -500,12 +652,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>MavenDemo</last-edited>
+          <last-edited>JavaBasic</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -513,7 +664,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>maven-wrapper</last-edited>
+          <last-edited>junit-4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
