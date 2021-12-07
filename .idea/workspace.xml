@@ -2,19 +2,23 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="JavaWeb:war exploded" />
+      <artifact name="JavaWeb:Web exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
-    <option name="autoReloadType" value="ALL" />
+    <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dea78e02-7b2c-442f-b502-79fc4d167b0e" name="Default" comment="commit all">
+    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
+    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/TCPTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/TCPTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/mavendemo/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +42,23 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="test: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
@@ -79,14 +99,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UDPTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="UDPTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/UDPTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="152">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReflectionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="87" selection-start-line="87" selection-end-line="87" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClassLoaderTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ClassLoaderTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="127" column="57" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JavaBasic/src/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -103,34 +159,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hi_1.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaBasic/hi_1.txt">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
       <file leaf-file-name="hi.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JavaBasic/hi.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="3" selection-start-column="3" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="People.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/People.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaBasic.iml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/JavaBasic/JavaBasic.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="47" selection-start-line="8" selection-start-column="47" selection-end-line="8" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -145,25 +178,23 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/JavaWeb/web/index.jsp" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java" />
-        <option value="$PROJECT_DIR$/mavendemo/pom.xml" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/TransferStream.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/Person.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/generic/Student.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/People.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/hi.txt" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/RandomAccessFileTest.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/ObjectInputOutputStream/ObjectInputOutputStreamTest.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/InetAddressTEst.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/TCPTest.java" />
-        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/UDPTest.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/FileInputStreamOutputStream.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java" />
       </list>
     </option>
   </component>
@@ -209,28 +240,20 @@
           <item name="mavendemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="mavendemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="MavenRunner">
-    <option name="jreName" value="1.8" />
-  </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="60" />
-    <option name="y" value="91" />
-    <option name="width" value="1750" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="483" />
+    <option name="y" value="97" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
-  <component name="ProjectId" id="21oEe1cWDJ62Lvik3FHmyZrqwo6" />
+  <component name="ProjectId" id="21joXmewrXMac3P4I7MO01Lh8jE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -268,7 +291,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ljw" type="462c0819:PsiDirectoryNode" />
-              <item name="NetProgram" type="462c0819:PsiDirectoryNode" />
+              <item name="reflection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,22 +307,36 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://F:/project/Java/Yupi/JavaBasic/src/com/ljw/NetProgram/TCPTest.java" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="database.console.LAST_STATE" value="false" />
-    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="D:/Git/bin/git.exe" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="database.console.LAST_STATE" value="true" />
+    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/hamcrest-core-1.3.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src\com\ljw\IOStream" />
+      <recent name="F:\project\Java\Yupi\JavaBasic\src\com\ljw\singleTon" />
+      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src\com\ljw\ArraySort" />
+      <recent name="F:\project\Java\Yupi\ToyProgram\Program01\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ljw.Collection.SetTest" />
+      <recent name="com.ljw.Collection.ListTest" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -313,25 +350,36 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TCPTest.client">
+  <component name="RunManager" selected="JUnit.ClassLoaderTest.test">
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.ForTest" />
+      <module name="JavaBasic" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InetAddressTEst.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClassLoaderTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.NetProgram.*" />
+          <option name="PATTERN" value="com.ljw.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ljw.NetProgram" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.NetProgram.InetAddressTEst" />
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ClassLoaderTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -343,18 +391,41 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ObjectInputOutputStreamTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.ObjectInputOutputStream.*" />
+          <option name="PATTERN" value="com.ljw.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ljw.ObjectInputOutputStream" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.ObjectInputOutputStream.ObjectInputOutputStreamTest" />
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ReflectionTest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.reflection.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ReflectionTest" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
@@ -366,65 +437,19 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="TCPTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ReflectionTest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.NetProgram.*" />
+          <option name="PATTERN" value="com.ljw.reflection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ljw.NetProgram" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.NetProgram.TCPTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TCPTest.client" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.NetProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ljw.NetProgram" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.NetProgram.TCPTest" />
-      <option name="METHOD_NAME" value="client" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TCPTest.server" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.NetProgram.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.ljw.NetProgram" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.NetProgram.TCPTest" />
-      <option name="METHOD_NAME" value="server" />
+      <option name="PACKAGE_NAME" value="com.ljw.reflection" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.reflection.ReflectionTest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="PARAMETERS" />
@@ -455,7 +480,7 @@
       </method>
     </configuration>
     <configuration name="MavendemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mavendemo" />
+      <module name="MavenDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.maven.mavendemo.MavendemoApplication" />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -483,12 +508,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tomcat7.0.78" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="Tomcat7.0.78" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.78" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="JavaWeb:war exploded">
+        <artifact name="JavaWeb:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/JavaWeb" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -501,7 +526,7 @@
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="2224" />
+        <option name="DEBUG_PORT" value="javadebug" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -550,26 +575,26 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="JavaWeb:war exploded" />
+          <artifact name="JavaWeb:Web exploded" />
         </option>
       </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
-      <item itemvalue="JUnit.ObjectInputOutputStreamTest.test3" />
-      <item itemvalue="JUnit.InetAddressTEst.test" />
-      <item itemvalue="JUnit.TCPTest" />
-      <item itemvalue="JUnit.TCPTest.server" />
-      <item itemvalue="JUnit.TCPTest.client" />
+      <item itemvalue="Application.ForTest" />
+      <item itemvalue="JUnit.ReflectionTest.test2" />
+      <item itemvalue="JUnit.ReflectionTest.test3" />
+      <item itemvalue="JUnit.ReflectionTest.test4" />
+      <item itemvalue="JUnit.ClassLoaderTest.test" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TCPTest.client" />
-        <item itemvalue="JUnit.TCPTest.server" />
-        <item itemvalue="JUnit.TCPTest" />
-        <item itemvalue="JUnit.InetAddressTEst.test" />
-        <item itemvalue="JUnit.ObjectInputOutputStreamTest.test3" />
+        <item itemvalue="JUnit.ClassLoaderTest.test" />
+        <item itemvalue="JUnit.ReflectionTest.test4" />
+        <item itemvalue="JUnit.ReflectionTest.test3" />
+        <item itemvalue="JUnit.ReflectionTest.test2" />
+        <item itemvalue="Application.ForTest" />
       </list>
     </recent_temporary>
   </component>
@@ -579,8 +604,8 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="dea78e02-7b2c-442f-b502-79fc4d167b0e" name="Default" comment="" />
-      <created>1638551560293</created>
+      <changelist id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="" />
+      <created>1638783264490</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1638551560293</updated>
@@ -607,45 +632,15 @@
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1638610932946</updated>
+      <updated>1638783264490</updated>
+      <workItem from="1638783266994" duration="3614000" />
+      <workItem from="1638844298912" duration="2275000" />
+      <workItem from="1638861086819" duration="6532000" />
     </task>
-    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="ObjectInputOutputStreamTest_test2 - 2021.12.04 at 17h 48m 30s.xml">
-      <configuration name="ObjectInputOutputStreamTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObjectInputOutputStreamTest_test2 - 2021.12.04 at 17h 50m 11s.xml">
-      <configuration name="ObjectInputOutputStreamTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObjectInputOutputStreamTest_test2 - 2021.12.04 at 17h 50m 55s.xml">
-      <configuration name="ObjectInputOutputStreamTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RandomAccessFileTest_test1 - 2021.12.04 at 20h 03m 20s.xml">
-      <configuration name="RandomAccessFileTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ObjectInputOutputStreamTest_test3 - 2021.12.05 at 15h 21m 58s.xml">
-      <configuration name="ObjectInputOutputStreamTest.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InetAddressTEst_test - 2021.12.05 at 21h 58m 51s.xml">
-      <configuration name="InetAddressTEst.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TCPTest - 2021.12.06 at 00h 31m 45s.xml">
-      <configuration name="TCPTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TCPTest - 2021.12.06 at 00h 32m 21s.xml">
-      <configuration name="TCPTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TCPTest_client - 2021.12.06 at 00h 33m 01s.xml">
-      <configuration name="TCPTest.client" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TCPTest_server - 2021.12.06 at 00h 33m 01s.xml">
-      <configuration name="TCPTest.server" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32386000" />
+    <option name="totallyTimeSpent" value="32396000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -657,7 +652,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -673,6 +668,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52141804" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3293944" />
+      <window_info active="true" anchor="bottom" id="Messages" order="8" visible="true" weight="0.4268833" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.3293944" />
@@ -681,23 +677,48 @@
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.41017964" />
       <window_info anchor="bottom" id="Spring" order="9" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.25553915" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20174263" />
       <window_info anchor="bottom" id="Problems" order="8" weight="0.3293944" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="bottom" id="Database Console" order="9" weight="0.3293944" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.43279174" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3538634" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12526652" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.32922733" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.38006395" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" weight="0.18390192" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32922733" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -728,87 +749,7 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="breakpointCondition">
-      <expression>
-        <expression-string>i == 80</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>&quot;test&quot;</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user" />
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaWeb/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaWeb/web/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console_1.sql">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://b64c1680-747d-4937-ab82-069b8ba6471e/schema/test/table/user" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b64c1680-747d-4937-ab82-069b8ba6471e/console.sql">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1063,8 +1004,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/NetProgram/UDPTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="23" column="57" lean-forward="true" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="152">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="127" column="57" selection-start-line="127" selection-start-column="57" selection-end-line="127" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="21" lean-forward="true" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/FileInputStreamOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaWeb/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://cd3102d2-8687-43b8-8072-e69c90b90aff/schema/test/table/user" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/cd3102d2-8687-43b8-8072-e69c90b90aff/console.sql" />
+    <entry file="file://$PROJECT_DIR$/mavendemo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/IOStream/FileInputStreamOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ReflectionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="87" selection-start-line="87" selection-end-line="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/ClassLoaderTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1077,7 +1104,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>JavaWeb:war exploded</last-edited>
+          <last-edited>JavaWeb:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1090,7 +1117,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring</last-edited>
+          <last-edited>Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1125,7 +1152,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>数组</last-edited>
+          <last-edited>JavaBasic</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1137,7 +1164,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.7</last-edited>
+          <last-edited>junit-4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1148,8 +1175,5 @@
         </settings>
       </state>
     </states>
-  </component>
-  <component name="mavenExecuteGoalHistory">
-    <option value="" />
   </component>
 </project>

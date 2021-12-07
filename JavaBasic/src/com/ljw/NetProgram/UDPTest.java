@@ -1,11 +1,13 @@
 package com.ljw.NetProgram;
 
+
 import org.junit.Test;
 
 import java.io.IOException;
 import java.net.*;
 
 public class UDPTest {
+
     @Test
     public void sender() throws IOException {
         DatagramSocket socket = new DatagramSocket();
