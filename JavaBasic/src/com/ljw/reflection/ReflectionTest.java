@@ -5,6 +5,8 @@ import org.junit.Test;
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
 import java.lang.reflect.Method;
+import java.util.Random;
+import java.util.stream.IntStream;
 
 public class ReflectionTest {
     @Test
@@ -17,7 +19,7 @@ public class ReflectionTest {
     }
     @Test
     public void test2() throws Exception {
-        // 反射创建对象
+        // 反射创建对象(运行时类对象)
         Class clazz = Person.class;
         Constructor constructor = clazz.getConstructor(String.class, int.class);
         Object obj = constructor.newInstance("a", 1);
@@ -86,5 +88,52 @@ public class ReflectionTest {
         // 扩展类加载器的getParent不能获得引导类加载器
         // 引导类加载器主要加载java核心类库，不能加载自定义类
 
+    }
+
+    @Test
+    public void test6() {
+        int[] nums = {0, -1, 99};
+        nums = IntStream.of(nums)
+                .boxed()
+                .sorted((o1, o2) -> Math.abs(o2) - Math.abs(o1))
+                .mapToInt(Integer::intValue).toArray();
+//        System.out.println(nums);
+        for (int i : nums) {
+            System.out.print(i + " ");
+        }
+
+        nums = IntStream.of(nums).boxed().sorted(((o1, o2) -> o2 - o1)).mapToInt(Integer::intValue).toArray();
+    }
+
+    @Test
+    public void test7() throws InstantiationException, IllegalAccessException {
+        // 通过反射，创建运行时类的对象
+        Class<Person> clazz = Person.class;
+
+        Person person = clazz.newInstance();
+    }
+
+    @Test
+    public void test8() throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+        int num = new Random().nextInt(3);
+        String classPath = "";
+        switch (num) {
+            case 0:
+                classPath = "java.util.Date";
+                break;
+            case 1:
+                classPath = "java.lang.Object";
+                break;
+            case 2:
+                classPath = "com.ljw.reflection.Person";
+                break;
+        }
+        Object instance = getInstance(classPath);
+        System.out.println(instance);
+    }
+
+    public Object getInstance(String classPath) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
+        Class clazz = Class.forName(classPath);
+        return clazz.newInstance();
     }
 }
