@@ -48,4 +48,8 @@ public class Person {
         System.out.println(nation);
         return nation;
     }
+
+    private static void showStaticPrivate() {
+        System.out.println("private static");
+    }
 }
