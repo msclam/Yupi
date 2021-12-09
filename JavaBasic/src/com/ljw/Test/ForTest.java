@@ -24,8 +24,5 @@ public class ForTest {
 //        st.push(123);
 //        st.push(12);
 //        System.out.println(st.pop());
-
-        int[] arr = new int[]{0, -99, 1};
-
     }
 }
