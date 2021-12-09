@@ -10,13 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/LambdaTest1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/ProxyMode/DynamicProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/ProxyMode/DynamicProxyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/DynamicProxyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/DynamicProxyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/SuperMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/SuperMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java" afterDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -233,49 +228,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LambdaTest1.test2">
-    <configuration name="DynamicProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.ProxyMode.DynamicProxyTest" />
-      <module name="JavaBasic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.ProxyMode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.ForTest" />
-      <module name="JavaBasic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StaticProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.ProxyMode.StaticProxyTest" />
-      <module name="JavaBasic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.ProxyMode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.StreamAPITest.test4">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -311,6 +264,60 @@
       <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
       <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.LambdaTest1" />
       <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPITest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPITest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
+      <option name="METHOD_NAME" value="test3" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StreamAPITest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -416,21 +423,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.StaticProxyTest" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
-      <item itemvalue="Application.ForTest" />
-      <item itemvalue="Application.DynamicProxyTest" />
       <item itemvalue="JUnit.LambdaTest1.test1" />
       <item itemvalue="JUnit.LambdaTest1.test2" />
+      <item itemvalue="JUnit.StreamAPITest.test1" />
+      <item itemvalue="JUnit.StreamAPITest.test3" />
+      <item itemvalue="JUnit.StreamAPITest.test4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamAPITest.test4" />
+        <item itemvalue="JUnit.StreamAPITest.test3" />
+        <item itemvalue="JUnit.StreamAPITest.test1" />
         <item itemvalue="JUnit.LambdaTest1.test2" />
         <item itemvalue="JUnit.LambdaTest1.test1" />
-        <item itemvalue="Application.DynamicProxyTest" />
-        <item itemvalue="Application.ForTest" />
-        <item itemvalue="Application.StaticProxyTest" />
       </list>
     </recent_temporary>
   </component>
