@@ -5,6 +5,7 @@ import org.junit.Test;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
@@ -74,12 +75,19 @@ public class StreamAPITest {
     @Test
     public void test5() {
         // 中间操作-映射
+        List<String> list = Arrays.asList("aa", "bb", "cc", "dd");
+        list.stream().map(str->str.toUpperCase()).forEach(System.out::println);
 
     }
 
     @Test
     public void test6() {
         // 中间操作-排序
+        int[] arr = {0, -9, 9};
+        arr = Arrays.stream(arr).boxed().sorted((a, b)->b-a).mapToInt(Integer::intValue).toArray();
 
+        List<Integer> collect = Arrays.stream(arr).boxed().sorted((a, b) -> b - a).collect(Collectors.toList());
+        System.out.println(collect);
+        
     }
 }

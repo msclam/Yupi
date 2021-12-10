@@ -9,11 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/LambdaTest/StreamAPITest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/LambdaTest/StreamAPITest.class" afterDir="false" />
     </list>
-    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,6 +59,19 @@
     </expand>
     <select />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="StreamAPITest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -85,6 +102,7 @@
         <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/UseReflection.java" />
         <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/ProxyMode/StaticProxyTest.java" />
         <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/ProxyMode/DynamicProxyTest.java" />
+        <option value="$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java" />
       </list>
     </option>
   </component>
@@ -137,9 +155,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="683" />
-    <option name="y" value="42" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="497" />
+    <option name="y" value="100" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -150,8 +168,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -184,12 +200,22 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="ljw" type="462c0819:PsiDirectoryNode" />
+              <item name="LambdaTest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Yupi" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaBasic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ljw" type="462c0819:PsiDirectoryNode" />
               <item name="ProxyMode" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -228,46 +254,22 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.StreamAPITest.test4">
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StreamAPITest.test6">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaTest1.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.LambdaTest1" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaTest1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.LambdaTest1" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -279,15 +281,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
       <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="StreamAPITest.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
@@ -297,15 +304,20 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
       <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
       <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="StreamAPITest.test4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
@@ -315,38 +327,112 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
       <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
       <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StreamAPITest.test5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
+      <option name="METHOD_NAME" value="test5" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="StreamAPITest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaBasic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
+      <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="MavendemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="MavenDemo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.maven.mavendemo.MavendemoApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
-    <configuration default="true" type="TestNG">
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
       <option name="TEST_OBJECT" value="CLASS" />
       <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
       <properties />
       <listeners />
-      <method v="2">
+      <method>
         <option name="Make" enabled="true" />
       </method>
     </configuration>
@@ -362,11 +448,11 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_Yupi" />
       </server-settings>
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="javadebug" />
       </RunnerSettings>
@@ -415,8 +501,7 @@
           <option name="PROGRAM_PARAMETERS" value="" />
         </SHUTDOWN>
       </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
+      <method>
         <option name="BuildArtifacts" enabled="true">
           <artifact name="JavaWeb:Web exploded" />
         </option>
@@ -425,23 +510,23 @@
     <list>
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
-      <item itemvalue="JUnit.LambdaTest1.test1" />
-      <item itemvalue="JUnit.LambdaTest1.test2" />
       <item itemvalue="JUnit.StreamAPITest.test1" />
       <item itemvalue="JUnit.StreamAPITest.test3" />
       <item itemvalue="JUnit.StreamAPITest.test4" />
+      <item itemvalue="JUnit.StreamAPITest.test5" />
+      <item itemvalue="JUnit.StreamAPITest.test6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StreamAPITest.test6" />
+        <item itemvalue="JUnit.StreamAPITest.test5" />
         <item itemvalue="JUnit.StreamAPITest.test4" />
         <item itemvalue="JUnit.StreamAPITest.test3" />
         <item itemvalue="JUnit.StreamAPITest.test1" />
-        <item itemvalue="JUnit.LambdaTest1.test2" />
-        <item itemvalue="JUnit.LambdaTest1.test1" />
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="false" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -471,6 +556,7 @@
       <workItem from="1638759206561" duration="1257000" />
       <workItem from="1639020251856" duration="2455000" />
       <workItem from="1639024949098" duration="2163000" />
+      <workItem from="1639067494574" duration="1245000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
@@ -485,9 +571,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UseReflection_MethodTest - 2021.12.09 at 11h 38m 33s.xml">
-      <configuration name="UseReflection.MethodTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UseReflection_MethodTest - 2021.12.09 at 11h 39m 10s.xml">
       <configuration name="UseReflection.MethodTest" configurationId="JUnit" />
     </history-entry>
@@ -515,9 +598,12 @@
     <history-entry file="UseReflection_MethodTest - 2021.12.09 at 11h 53m 40s.xml">
       <configuration name="UseReflection.MethodTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StreamAPITest_test5 - 2021.12.10 at 00h 35m 11s.xml">
+      <configuration name="StreamAPITest.test5" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37014000" />
+    <option name="totallyTimeSpent" value="38259000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -530,6 +616,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -542,11 +629,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" weight="0.38006395" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24815361" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.106351554" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24262735" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19168901" />
       <window_info anchor="bottom" id="Problems" order="8" weight="0.3293944" />
       <window_info anchor="right" id="Database" order="3" weight="0.18390192" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -575,12 +662,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit all" />
@@ -591,7 +687,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://F:/../Java/jdk1.8.0_281/src.zip!/java/lang/String.java" />
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/Collection/CollTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -876,13 +971,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../Java/jdk1.8.0_281/src.zip!/java/lang/Class.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="2129" selection-start-line="2129" selection-end-line="2129" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://F:/../Java/jdk1.8.0_281/src.zip!/java/lang/Class.java" />
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-280">
@@ -894,9 +983,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
           <caret line="49" column="52" lean-forward="true" selection-start-line="49" selection-start-column="52" selection-end-line="49" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -911,12 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="64">
           <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-          <folding>
-            <element signature="e#225#226#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#552#553#0" expanded="true" />
-            <element signature="e#588#589#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -924,12 +1004,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#271#272#0" expanded="true" />
-            <element signature="e#307#308#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/LambdaTest/StreamAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="89" column="34" selection-start-line="89" selection-start-column="34" selection-end-line="89" selection-end-column="34" />
         </state>
       </provider>
     </entry>
