@@ -56,5 +56,8 @@ public class SortTest {
         for (Map.Entry<Integer, Integer> entry : mp.entrySet()) {
             System.out.println(entry.getKey() + " " + entry.getValue());
         }
+
+        int num = 1;
+        System.out.println(Integer.toBinaryString(num));
     }
 }

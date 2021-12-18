@@ -1,77 +1,65 @@
 package com.ljw.Test;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Test {
     public static void main(String[] args) {
-//        int[] A = {0, 99, -1, 0, 12, 4, 3, 123};
-//        qSort(A, 0, A.length - 1);
-//        for (int num : A) {
-//            System.out.print(num + " ");
+//        int[] A = {1, 2, 3, 0, 0, 0};
+//        int m = 3;
+//        int[] B = {2, 5, 6};
+//        int n = 3;
+//        merge(A, m, B, n);
+//
+//        System.out.println(A.length);
+//
+//        for (int k : A) {
+//            System.out.print(k + ",");
 //        }
-//        System.out.println();
 
-//        int a = 12;
-//        int b = -5;
-//        a = a ^ b;
-//        b = a ^ b;
-//        a = a ^ b;
-//        System.out.println(a + " " + b);
+//        int[] A = {1, 2, 3, 0, 0, 0};
+//        int[] res = {1, 2, 3, 4, 5, 6};
 //
-//        int c = 60;
-//        System.out.println(Integer.toHexString(c));
-//
-//        int num = 14;
-//        String str = num > 9 ? (char)(num - 10 + 'A') + "" : num + "";
-//
-//        Scanner sc = new Scanner(System.in);
-//        int n = sc.nextInt();
-//        System.out.println(n);
-//
-//        int rad = (int)(Math.random() * (b - a + 1) + a);
-
-//        String[] s = new String[3];
-//        for (int i = 0; i < s.length; i ++ ) {
-//            s[i] = new String();
-//            System.out.println(s[i]);
+//        A = Arrays.copyOf(res, 6);
+//        for (int k : A) {
+//            System.out.print(k + ",");
 //        }
-//        System.out.println(s[0]);
 
-        int[] a = new int[6]; // 生成[1, 30]中的随机数，其中每个随机数不相同
-        for (int i = 0; i < a.length; i ++ ) {
-            a[i] = (int)(Math.random() * (30 - 1 + 1) + 1);
-            for (int j = 0; j < i; j ++ ) {
-                if (a[j] == a[i]) {
-                    i--;
-                    break;
-                }
-            }
+//        String s = "[a, b, c]";
+//        String[] str = s.substring(1, s.length() - 1).split(",");
+//        for (String i : str) {
+//            System.out.print(i + " ");
+//        }
+        PriorityQueue<Integer> q = new PriorityQueue<>(Collections.reverseOrder());
+        q.offer(1);
+        q.offer(2);
+        q.offer(3);
+        while (!q.isEmpty()) {
+            System.out.println(q.poll());
         }
-        for (int i = 0; i < a.length; i ++ ) {
-            System.out.println(a[i] + " ");
-        }
-        System.out.println();
     }
 
-    public static void qSort(int[] A, int l, int r) {
-        if (l >= r) return;
-        int i = l, j = r, x = A[l + r >> 1];
-        while (i < j) {
-            while (A[i] < x) i++;
-            while (A[j] > x) j--;
-            if (i <= j) {
-                swap(A, i, j);
-                i++;
-                j--;
+    public static void merge(int[] A, int m, int[] B, int n) {
+        int[] res = new int[m + n];
+        int i = 0;
+        int j = 0;
+        int idx = 0;
+        while (i < m && j < n) {
+            if (A[i] <= B[j]) {
+                res[idx++] = A[i++];
+            } else {
+                res[idx++] = B[j++];
             }
         }
-        if (l < j) qSort(A, l, j);
-        if (i < r) qSort(A, i, r);
-    }
+        while (i < m) {
+            res[idx++] = A[i++];
+        }
 
-    public static void swap(int[] A, int i, int j) {
-        int tmp = A[i];
-        A[i] = A[j];
-        A[j] = tmp;
+        while (j < n) {
+            res[idx++] = B[j++];
+        }
+
+        A = Arrays.copyOf(res, m + n);
+        Queue<Integer> q = new LinkedList<>();
+
     }
 }
