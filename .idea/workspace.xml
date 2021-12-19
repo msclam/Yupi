@@ -11,10 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/SortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/SortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/SortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/SortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCTest/JDBCTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCTest/JDBCTest.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" afterDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -112,7 +110,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="F:\Java\RepMaven" />
-        <option name="mavenHome" value="F:/Java/apache-maven-3.2.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Java/apache-maven-3.2.2" />
         <option name="userSettingsFile" value="F:\Java\apache-maven-3.2.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -219,7 +217,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaBasic" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBCTest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -240,35 +238,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="SortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.SortTest" />
-      <module name="JavaBasic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.Test" />
-      <module name="JavaBasic" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ljw.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.LambdaTest1.test2">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -293,17 +263,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPITest.quickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Person.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JavaBasic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="PATTERN" value="com.ljw.AnnotationTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
-      <option name="METHOD_NAME" value="quickSort" />
+      <option name="PACKAGE_NAME" value="com.ljw.AnnotationTest" />
+      <option name="MAIN_CLASS_NAME" value="com.ljw.AnnotationTest.Person" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -427,19 +397,15 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.SortTest" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="JUnit.StreamAPITest.quickSort" />
       <item itemvalue="JUnit.LambdaTest1.test2" />
       <item itemvalue="JUnit.StreamAPITest.test6" />
+      <item itemvalue="JUnit.Person.test" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.SortTest" />
-        <item itemvalue="JUnit.StreamAPITest.quickSort" />
+        <item itemvalue="JUnit.Person.test" />
         <item itemvalue="JUnit.StreamAPITest.test6" />
         <item itemvalue="JUnit.LambdaTest1.test2" />
       </list>
@@ -481,6 +447,8 @@
       <workItem from="1639624364073" duration="1243000" />
       <workItem from="1639733081267" duration="2438000" />
       <workItem from="1639830995737" duration="142000" />
+      <workItem from="1639904484050" duration="928000" />
+      <workItem from="1639919166845" duration="594000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
@@ -895,7 +863,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://F:/../Java/jdk1.8.0_281/src.zip!/java/lang/Class.java" />
+    <entry file="jar://$PROJECT_DIR$/../../../../Java/jdk1.8.0_281/src.zip!/java/lang/Class.java" />
     <entry file="file://$PROJECT_DIR$/JavaBasic/src/com/ljw/reflection/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-280">
