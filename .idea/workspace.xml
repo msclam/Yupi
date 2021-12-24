@@ -11,8 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBCTest/JDBCTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JDBCTest/JDBCTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/JavaBasic.iml" afterDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -448,7 +446,7 @@
       <workItem from="1639733081267" duration="2438000" />
       <workItem from="1639830995737" duration="142000" />
       <workItem from="1639904484050" duration="928000" />
-      <workItem from="1639919166845" duration="594000" />
+      <workItem from="1639919166845" duration="1195000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
