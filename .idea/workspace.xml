@@ -11,6 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JDBCTest/JDBCTest.iml" beforeDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,6 +216,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBCTest" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
@@ -446,7 +448,7 @@
       <workItem from="1639733081267" duration="2438000" />
       <workItem from="1639830995737" duration="142000" />
       <workItem from="1639904484050" duration="928000" />
-      <workItem from="1639919166845" duration="1195000" />
+      <workItem from="1639919166845" duration="1338000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
