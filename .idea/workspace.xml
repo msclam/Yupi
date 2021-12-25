@@ -10,8 +10,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
+      <change afterPath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu1/connection/ConnectionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu2/statement/crud/StatementTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu2/statement/crud/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/bean/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/bean/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/prepareStatement/crud/CustomerForQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/prepareStatement/crud/OrderForQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/prepareStatement/crud/PrepareStatementQueryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/prepareStatement/crud/PrepareStatementUpdateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/util/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu4/exer/Exer1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/jdbc.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBCTest/JDBCTest.iml" beforeDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -212,12 +225,13 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JDBCTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu/statement/crud" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -225,10 +239,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\Java\Yupi\JdbcTest\src\com\atguigu\statement\crud" />
+      <recent name="F:\project\Java\Yupi\JdbcTest\lib" />
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src\com\ljw\IOStream" />
       <recent name="F:\project\Java\Yupi\JavaBasic\src\com\ljw\singleTon" />
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src\com\ljw\ArraySort" />
-      <recent name="F:\project\Java\Yupi\ToyProgram\Program01\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
@@ -238,24 +253,41 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.LambdaTest1.test2">
+  <component name="RunManager" selected="JUnit.Exer1Test.testInsert">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaTest1.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
+    <configuration name="Exer1Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="PATTERN" value="com.atguigu4.exer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.LambdaTest1" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="PACKAGE_NAME" value="com.atguigu4.exer" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu4.exer.Exer1Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Exer1Test.testInsert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu4.exer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu4.exer" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu4.exer.Exer1Test" />
+      <option name="METHOD_NAME" value="testInsert" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -263,17 +295,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Person.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
+    <configuration name="PrepareStatementQueryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.AnnotationTest.*" />
+          <option name="PATTERN" value="com.atguigu3.prepareStatement.crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.AnnotationTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.AnnotationTest.Person" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.atguigu3.prepareStatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.prepareStatement.crud.PrepareStatementQueryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrepareStatementQueryTest.testGetForList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu3.prepareStatement.crud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu3.prepareStatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.prepareStatement.crud.PrepareStatementQueryTest" />
+      <option name="METHOD_NAME" value="testGetForList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -281,17 +330,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamAPITest.test6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaBasic" />
+    <configuration name="PrepareStatementQueryTest.testGetInstanc" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ljw.LambdaTest.*" />
+          <option name="PATTERN" value="com.atguigu3.prepareStatement.crud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ljw.LambdaTest" />
-      <option name="MAIN_CLASS_NAME" value="com.ljw.LambdaTest.StreamAPITest" />
-      <option name="METHOD_NAME" value="test6" />
+      <option name="PACKAGE_NAME" value="com.atguigu3.prepareStatement.crud" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu3.prepareStatement.crud.PrepareStatementQueryTest" />
+      <option name="METHOD_NAME" value="testGetInstanc" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -397,17 +446,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.LambdaTest1.test2" />
-      <item itemvalue="JUnit.StreamAPITest.test6" />
-      <item itemvalue="JUnit.Person.test" />
+      <item itemvalue="JUnit.PrepareStatementQueryTest.testGetInstanc" />
+      <item itemvalue="JUnit.PrepareStatementQueryTest" />
+      <item itemvalue="JUnit.PrepareStatementQueryTest.testGetForList" />
+      <item itemvalue="JUnit.Exer1Test.testInsert" />
+      <item itemvalue="JUnit.Exer1Test" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Person.test" />
-        <item itemvalue="JUnit.StreamAPITest.test6" />
-        <item itemvalue="JUnit.LambdaTest1.test2" />
+        <item itemvalue="JUnit.Exer1Test.testInsert" />
+        <item itemvalue="JUnit.Exer1Test" />
+        <item itemvalue="JUnit.PrepareStatementQueryTest.testGetForList" />
+        <item itemvalue="JUnit.PrepareStatementQueryTest" />
+        <item itemvalue="JUnit.PrepareStatementQueryTest.testGetInstanc" />
       </list>
     </recent_temporary>
   </component>
@@ -449,6 +502,8 @@
       <workItem from="1639830995737" duration="142000" />
       <workItem from="1639904484050" duration="928000" />
       <workItem from="1639919166845" duration="1338000" />
+      <workItem from="1640364427163" duration="20810000" />
+      <workItem from="1640437715864" duration="8213000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
