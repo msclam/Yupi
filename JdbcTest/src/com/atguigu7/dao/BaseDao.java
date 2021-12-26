@@ -1,49 +1,94 @@
-package com.atguigu3.prepareStatement.crud;
+package com.atguigu7.dao;
 
-import com.atguigu3.bean.Customer;
-import com.atguigu3.bean.Order;
 import com.atguigu3.util.JDBCUtils;
-import org.junit.Test;
 
 import java.lang.reflect.Field;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.ResultSetMetaData;
+import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
 /**
  * @author lanjuwen
- * @create 2021-12-25  21:41
+ * @create 2021-12-26  22:36
  */
-public class PrepareStatementQueryTest {
-    // prepareStatement预编译sql语句能够避免sql注入问题
-    // prepareStatement操作blob的数据statement不行
-    // prepareStatement可以高效批量操作
-    @Test
-    public void testGetForList() {
-        String sql = "select id, name, email from customers where id < ?";
-        List<Customer> list = getForList(Customer.class, sql, 12);
-        for (Customer cust : list) {
-            System.out.println(cust);
-        }
+public abstract class BaseDao {
+    // DAO data access object 数据访问对象
+    // 封装针对数据表的通用操作
 
-        sql = "select order_id orderId, order_name orderName from `order` where order_id < ?";
-        List<Order> list1 = getForList(Order.class, sql, 5);
-        for (Order order : list1) {
-            System.out.println(order);
+    // 1 针对不同表的通用的增删改操作--version2.0(考虑事务)
+    // 为了保证同一个事务，把connection传进来
+    public int update(Connection conn, String sql, Object...args) {
+        PreparedStatement ps = null;
+        try {
+            // 1 获得数据库的连接
+//            conn = JDBCUtils.getConnection();
+            //2 预编译sql语句， 返回prepareStatement对象
+            ps = conn.prepareStatement(sql);
+            // 3 填充占位符
+            for (int i = 0; i < args.length; i ++ ) {
+                ps.setObject(i + 1, args[i]);
+            }
+            // 4 执行
+            return ps.executeUpdate();
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            //5 资源关闭
+            JDBCUtils.closeResource(null, ps);
         }
+        return 0;
     }
 
-    // 不同表的通用查询（返回多个对象）
-    public <T>List<T> getForList(Class<T> clazz, String sql, Object...args) {
-        Connection conn = null;
+    //2  针对不同表的通用查询(返回一条记录) （考虑事务） version 2.0
+    public <T> T getInstance(Connection conn, Class<T> clazz, String sql, Object...args) {
         PreparedStatement ps = null;
         ResultSet rs = null;
         try {
             // 1 获取连接
-            conn = JDBCUtils.getConnection();
+//            conn = JDBCUtils.getConnection();
+
+            // 2 预编译sql
+            ps = conn.prepareStatement(sql);
+            // 3 填写占位符
+            for (int i = 0; i < args.length; i ++ ) {
+                ps.setObject(i + 1, args[i]);
+            }
+
+            // 4 执行
+            rs = ps.executeQuery();
+            ResultSetMetaData rsmd = rs.getMetaData();
+            int columnCnt = rsmd.getColumnCount();
+            // 5 处理结果
+            while (rs.next()) {
+                T t = clazz.newInstance();
+                for (int i = 0; i < columnCnt; i ++ ) {
+                    // 获取列值
+                    Object columnValue = rs.getObject(i + 1);
+                    // 获取列名
+                    String columnLabel = rsmd.getColumnLabel(i + 1);
+
+                    // 通过反射给对象t赋值
+                    Field field = clazz.getDeclaredField(columnLabel);
+                    field.setAccessible(true);
+                    field.set(t, columnValue);
+                }
+                return t;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        } finally {
+            JDBCUtils.closeResource(null, ps, rs);
+        }
+        return null;
+    }
+
+    // 3 不同表的通用查询（返回多个记录的集合） 考虑事务（version 2.0）
+    public <T> List<T> getForList(Connection conn, Class<T> clazz, String sql, Object...args) {
+        PreparedStatement ps = null;
+        ResultSet rs = null;
+        try {
+            // 1 获取连接
+//            conn = JDBCUtils.getConnection();
 
             // 2 预编译sql
             ps = conn.prepareStatement(sql);
@@ -77,62 +122,28 @@ public class PrepareStatementQueryTest {
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
-            JDBCUtils.closeResource(conn, ps, rs);
+            JDBCUtils.closeResource(null, ps, rs);
         }
         return null;
     }
 
-    @Test
-    public void testGetInstanc() {
-        String sql = "select id, name, email from customers where id = ?";
-        Customer cust = getInstanc(Customer.class, sql, 1);
-        System.out.println(cust);
-
-        String sql1 = "select order_id orderId, order_name orderName from `order` where order_id = ?";
-        Order order = getInstanc(Order.class, sql1, 1);
-        System.out.println(order);
-    }
-
-    // 针对不同表的通用查询(返回一条记录)
-    public <T> T getInstanc(Class<T> clazz, String sql, Object...args) {
-        Connection conn = null;
+    // 用于查询特殊值的通用方法
+    public <E>E getValue(Connection conn, String sql, Object...args) {
         PreparedStatement ps = null;
         ResultSet rs = null;
         try {
-            // 1 获取连接
-            conn = JDBCUtils.getConnection();
-
-            // 2 预编译sql
             ps = conn.prepareStatement(sql);
-            // 3 填写占位符
             for (int i = 0; i < args.length; i ++ ) {
                 ps.setObject(i + 1, args[i]);
             }
-
-            // 4 执行
             rs = ps.executeQuery();
-            ResultSetMetaData rsmd = rs.getMetaData();
-            int columnCnt = rsmd.getColumnCount();
-            // 5 处理结果
-            while (rs.next()) {
-                T t = clazz.newInstance();
-                for (int i = 0; i < columnCnt; i ++ ) {
-                    // 获取列值
-                    Object columnValue = rs.getObject(i + 1);
-                    // 获取列名
-                    String columnLabel = rsmd.getColumnLabel(i + 1);
-
-                    // 通过反射给对象t赋值
-                    Field field = clazz.getDeclaredField(columnLabel);
-                    field.setAccessible(true);
-                    field.set(t, columnValue);
-                }
-                return t;
+            if (rs.next()) {
+                return (E) rs.getObject(1);
             }
-        } catch (Exception e) {
+        } catch (SQLException e) {
             e.printStackTrace();
         } finally {
-            JDBCUtils.closeResource(conn, ps, rs);
+            JDBCUtils.closeResource(null, ps, rs);
         }
         return null;
     }
