@@ -3,12 +3,10 @@ package com.atguigu7.dao;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
 /**
- * @author lanjuwen
- * @create 2021-12-27  0:45
- */
-public class CustomerDaoImplTest {
+@author lanjuwen
+@create 2021-12-27  0:45
+*/public class CustomerDaoImplTest {
 
     @Test
     public void insert() {

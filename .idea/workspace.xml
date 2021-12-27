@@ -10,25 +10,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
-      <change afterPath="$PROJECT_DIR$/JdbcTest/girl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/playgirl.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/bean/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu4/exer/Exer2Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu5/blob/BathInsertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu5/blob/BlobTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu6/transaction/ConnectionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu6/transaction/TransactionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/dao/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/dao/CustomerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/dao/CustomerDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/zhan.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/prepareStatement/crud/PrepareStatementQueryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/prepareStatement/crud/PrepareStatementQueryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/src/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/src/jdbc.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBCTest/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBCTest/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/dao/junit/com/atguigu7/dao/CustomerDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/dao/junit/com/atguigu7/dao/CustomerDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JDBCTest/com/atguigu7/dao/CustomerDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JDBCTest/com/atguigu7/dao/CustomerDaoImplTest.class" afterDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +62,7 @@
         <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -236,6 +221,8 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="J:/2_编程视频/2_尚硅谷Java学科全套教程（总207.77GB）/1.尚硅谷全套JAVA教程--基础必备（67.32GB）/尚硅谷_宋红康_JDBC核心技术(2019新版)/3-资料/3-资料/2-驱动/01-MySQL驱动/mysql-connector-java-5.1.7/mysql-connector-java-5.1.7-bin.jar" />
@@ -254,6 +241,12 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.atguigu7.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ljw.Collection.SetTest" />
@@ -513,7 +506,7 @@
       <workItem from="1640364427163" duration="20810000" />
       <workItem from="1640437715864" duration="8213000" />
       <workItem from="1640450108802" duration="24408000" />
-      <workItem from="1640535938953" duration="1119000" />
+      <workItem from="1640535938953" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
