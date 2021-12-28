@@ -1,4 +1,4 @@
-package com.atguigu7.dao;
+package com.atguigu7.daoEvolution;
 
 import com.atguigu3.bean.Customer;
 import com.atguigu3.util.JDBCUtils;
@@ -9,9 +9,11 @@ import java.sql.Date;
 import java.util.List;
 
 /**
-@author lanjuwen
-@create 2021-12-27  0:45
-*/public class CustomerDaoImplTest {
+ * @author lanjuwen
+ * @create 2021-12-28  11:42
+ */
+public class CustomerDaoImplTest {
+
     private CustomerDaoImpl dao = new CustomerDaoImpl();
     @Test
     public void insert() {
