@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/com/atguigu7/dao/junit" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/com/atguigu7/daoEvolution/junit" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/com/atguigu8/connectionPool/c3p0/junit" isTestSource="true" />
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -28,6 +29,32 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="c3p0-0.9.1.2" level="project" />
+    <orderEntry type="module-library">
+      <library name="c3p0-0.9.1.2">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/c3p0-0.9.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-dbcp-1.4">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-dbcp-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-pool-1.5.5">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/commons-pool-1.5.5.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
