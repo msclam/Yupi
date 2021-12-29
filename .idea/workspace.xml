@@ -10,30 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
-      <change afterPath="$PROJECT_DIR$/JdbcTest/lib/commons-dbutils-1.3.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/lib/druid-1.1.10.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu10/connectionPool/druid/DruidTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu10/connectionPool/druid/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu11/dbutils/QueryRunnerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoFinal/BaseDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoFinal/bean/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu9/connectionPool/dbcp/DBCPTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu9/connectionPool/dbcp/util/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/dbcp.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JdbcTest/src/druid.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/test/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/test/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/test/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/test/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoFinal/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoFinal/BookDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/util/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu3/util/JDBCUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit/com/atguigu7/daoEvolution/CustomerDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit/com/atguigu7/daoEvolution/CustomerDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/src/com/atguigu8/connectionPool/c3p0/junit/com/atguigu8/connectionPool/c3p0/CustomerDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/src/com/atguigu8/connectionPool/c3p0/junit/com/atguigu8/connectionPool/c3p0/CustomerDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JdbcTest/src/com/atguigu9/connectionPool/dbcp/util/DBCPTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBCTest/com/atguigu3/util/JDBCUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JDBCTest/com/atguigu3/util/JDBCUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JDBCTest/com/atguigu9/connectionPool/dbcp/util/DBCPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/JDBCTest/com/atguigu7/daoEvolution/CustomerDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/JDBCTest/com/atguigu7/daoEvolution/CustomerDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBCTest/com/atguigu7/dao/CustomerDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JDBCTest/com/atguigu7/daoEvolution/CustomerDaoImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/JDBCTest/com/atguigu8/connectionPool/c3p0/CustomerDaoImplTest.class" beforeDir="false" />
     </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -81,10 +64,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
-        <option value="Interface" />
-        <option value="JavaScript File" />
         <option value="JUnit4 Test Class" />
-        <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -134,7 +115,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="F:\Java\RepMaven" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../apache-maven-3.2.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../Java/apache-maven-3.2.2" />
         <option name="userSettingsFile" value="F:\Java\apache-maven-3.2.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -248,8 +229,8 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu8/connectionPool/c3p0/junit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../视频/Java/1/mysql/尚硅谷_宋红康_JDBC核心技术(2019新版)/3-资料/3-资料/2-驱动/04-dbutils/commons-dbutils-1.3-src.zip" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JdbcTest/lib" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -257,11 +238,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JdbcTest\lib" />
-      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JdbcTest\src\com\atguigu8\connectionPool\c3p0" />
       <recent name="F:\project\Java\Yupi\JdbcTest\lib" />
       <recent name="F:\project\Java\Yupi\JdbcTest\src\com\atguigu7\daoEvolution" />
       <recent name="F:\project\Java\Yupi\JdbcTest" />
+      <recent name="F:\project\Java\Yupi\JdbcTest\src\com\atguigu\statement\crud" />
+      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src\com\ljw\IOStream" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
@@ -269,11 +250,7 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.atguigu8.connectionPool.c3p0" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="com.atguigu8.connectionPool.c3p0" />
       <recent name="com.atguigu7.daoEvolution" />
       <recent name="com.atguigu7.dao" />
     </key>
@@ -282,92 +259,24 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.test">
+  <component name="RunManager" selected="JUnit.CustomerDaoImplTest.getMaxBirth">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.test.test" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <configuration name="CustomerDaoImplTest.getMaxBirth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JDBCTest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="reflection.test.*" />
+          <option name="PATTERN" value="com.atguigu7.daoEvolution.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryRunnerTest.testQuery1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JdbcTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu11.dbutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu11.dbutils" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu11.dbutils.QueryRunnerTest" />
-      <option name="METHOD_NAME" value="testQuery1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryRunnerTest.testQuery5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JdbcTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu11.dbutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu11.dbutils" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu11.dbutils.QueryRunnerTest" />
-      <option name="METHOD_NAME" value="testQuery5" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryRunnerTest.testQuery6" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JdbcTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu11.dbutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu11.dbutils" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu11.dbutils.QueryRunnerTest" />
-      <option name="METHOD_NAME" value="testQuery6" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QueryRunnerTest.testQuery7" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JdbcTest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.atguigu11.dbutils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu11.dbutils" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu11.dbutils.QueryRunnerTest" />
-      <option name="METHOD_NAME" value="testQuery7" />
+      <option name="PACKAGE_NAME" value="com.atguigu7.daoEvolution" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu7.daoEvolution.CustomerDaoImplTest" />
+      <option name="METHOD_NAME" value="getMaxBirth" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -379,13 +288,6 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MavendemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="mavendemo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.maven.mavendemo.MavendemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -481,21 +383,12 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.MavendemoApplication" />
-      <item itemvalue="Spring Boot.MavendemoApplication (1)" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
-      <item itemvalue="JUnit.QueryRunnerTest.testQuery1" />
-      <item itemvalue="JUnit.QueryRunnerTest.testQuery5" />
-      <item itemvalue="JUnit.QueryRunnerTest.testQuery6" />
-      <item itemvalue="JUnit.QueryRunnerTest.testQuery7" />
-      <item itemvalue="Application.test" />
+      <item itemvalue="JUnit.CustomerDaoImplTest.getMaxBirth" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="JUnit.QueryRunnerTest.testQuery1" />
-        <item itemvalue="JUnit.QueryRunnerTest.testQuery7" />
-        <item itemvalue="JUnit.QueryRunnerTest.testQuery6" />
-        <item itemvalue="JUnit.QueryRunnerTest.testQuery5" />
+        <item itemvalue="JUnit.CustomerDaoImplTest.getMaxBirth" />
       </list>
     </recent_temporary>
   </component>
@@ -543,10 +436,7 @@
       <workItem from="1640535938953" duration="2997000" />
       <workItem from="1640658877792" duration="914000" />
       <workItem from="1640659830966" duration="2908000" />
-      <workItem from="1640662822393" duration="2548000" />
-      <workItem from="1640680039903" duration="471000" />
-      <workItem from="1640680529292" duration="4673000" />
-      <workItem from="1640690627208" duration="20327000" />
+      <workItem from="1640662822393" duration="4637000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
