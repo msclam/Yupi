@@ -1,5 +1,11 @@
 package com.atguigu3.util;
 
+import com.alibaba.druid.pool.DruidDataSourceFactory;
+import com.mchange.v2.c3p0.ComboPooledDataSource;
+import org.apache.commons.dbcp.BasicDataSourceFactory;
+import org.apache.commons.dbutils.DbUtils;
+
+import javax.sql.DataSource;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
@@ -9,9 +15,9 @@ import java.util.Properties;
  * @create 2021-12-25  16:34
  */
 public class JDBCUtils {
-    // 操作数据库的工具类
+    // （不使用数据库连接池）操作数据库的工具类
     // 获取连接
-    public static Connection getConnection() throws  Exception {
+    public static Connection getConnection() throws Exception {
         // 1 获取配置资源
         InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("jdbc.properties");
         Properties pros = new Properties();
@@ -69,4 +75,112 @@ public class JDBCUtils {
             e.printStackTrace();
         }
     }
+    /*********************************使用dbutils.jar包中提供的工具类Dbutils工具类实现资源关闭****************************************************/
+    public static void closeResource1(Connection conn, Statement ps, ResultSet rs) {
+//        try {
+//            DbUtils.close(conn);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            DbUtils.close(ps);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            DbUtils.close(rs);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+        DbUtils.closeQuietly(conn);
+        DbUtils.closeQuietly(ps);
+        DbUtils.closeQuietly(rs);
+    }
+
+    public static void closeResource1(Connection conn, Statement ps) {
+//        try {
+//            DbUtils.close(conn);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            DbUtils.close(ps);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//        try {
+//            DbUtils.close(rs);
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+        DbUtils.closeQuietly(conn);
+        DbUtils.closeQuietly(ps);
+    }
+
+    /*********************************使用数据库连接池连接数据库****************************************************/
+    /**
+     * 使用c3p0的数据库连接池技术
+     *
+     * @return
+     * @throws SQLException
+     */
+    private static ComboPooledDataSource cpds = new ComboPooledDataSource("helloc3p0"); // 池子一个就够，连接多个
+
+    public static Connection getConnection1() throws SQLException {
+        Connection connection = cpds.getConnection();
+//        System.out.println(connection);
+        return connection;
+    }
+
+
+    /**
+     * 使用dbcp的数据库连接池技术
+     *
+     * @return
+     * @throws SQLException
+     */
+    private static DataSource source2;
+
+    static {
+        try {
+            InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("dbcp.properties");
+//        FileInputStream is = new FileInputStream(new File("src/dbcp.properties"));
+            Properties pros = new Properties();
+            pros.load(is);
+            source2 = BasicDataSourceFactory.createDataSource(pros);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static Connection getConnection2() throws Exception {
+        Connection conn = source2.getConnection();
+        return conn;
+    }
+
+
+    /**
+     * druid数据库连接池的连接
+     *
+     * @return
+     * @throws SQLException
+     */
+    private static DataSource source3;
+
+    static {
+        try {
+            InputStream is = ClassLoader.getSystemClassLoader().getResourceAsStream("druid.properties");
+            Properties pros = new Properties();
+            pros.load(is);
+            source3 = DruidDataSourceFactory.createDataSource(pros);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public static Connection getConnection3() throws Exception {
+        Connection conn = source3.getConnection();
+        return conn;
+    }
+
 }

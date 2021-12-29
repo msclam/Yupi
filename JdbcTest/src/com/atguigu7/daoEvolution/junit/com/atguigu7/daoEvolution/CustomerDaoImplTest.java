@@ -3,6 +3,8 @@ package com.atguigu7.daoEvolution;
 import com.atguigu3.bean.Customer;
 import com.atguigu3.util.JDBCUtils;
 //import com.atguigu8.connectionPool.c3p0.util.JDBCUtils;
+//import com.atguigu9.connectionPool.dbcp.util.JDBCUtils;
+//import com.atguigu10.connectionPool.druid.util.JDBCUtils;
 import org.junit.Test;
 
 import java.sql.Connection;
@@ -78,7 +80,7 @@ public class CustomerDaoImplTest {
     public void getAll() {
         Connection conn = null;
         try {
-            conn = JDBCUtils.getConnection();  // 测试c3p0连接池
+            conn = JDBCUtils.getConnection3();  // 测试c3p0连接池, dbcp和druid
             List<Customer> list = dao.getAll(conn);
             for (Customer cust : list) {
                 System.out.println(cust);

@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 
 public class CustomerDaoImplTest {
 
-    private com.atguigu7.daoEvolution.CustomerDaoImpl dao = new CustomerDaoImpl();
+    private CustomerDaoImpl dao = new CustomerDaoImpl();
     @Test
     public void insert() {
         Connection conn = null;
