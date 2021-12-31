@@ -9,208 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all" />
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
-    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/Cat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/Reflection01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/Reflection02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/class_/AllTypeClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/class_/Class01.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/class_/Class02.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/class_/GetClass_.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/hspedu/reflection/question/ReflectionQuestion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/AnnotationTest/MyAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/AnnotationTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/AnnotationTest/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Array/ArrayTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Array/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Array/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/BinaryInsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/BubbleSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/BucketSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/HeapSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/InsertSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/MergeSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/MultiKeyRadixSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/QuickSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/SelectSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/SelectSort2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ArraySort/ShellSort.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/ArrayListFor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionsTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/CollectionsTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/ForEach.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/IteratorTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/ListTest/ListTestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/ListTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/MapTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/PropertiesTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/MapTest/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/SetTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/SetTest/SetTestCase$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/SetTest/SetTestCase.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/exer/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/exer/HashSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/exer/MyDate.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/exer/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/exer/TreeSetTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Collection/exer/TreeSetTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/DateFormat/CalenderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/DateFormat/InstanctTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/DateFormat/LocalDateTimeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/DateFormat/SimpleDateFormatTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/EnumDefSeason.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Seacon.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/SeaconTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Season$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Season$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Season$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Season$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/EnumClass/Season.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/File/FileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/BufferTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/CharCnt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/FileInputStreamOutputStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/FileReaderWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/IOStream/TransferStream.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/LambdaTest/LambdaTest1$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/LambdaTest/LambdaTest1$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/LambdaTest/LambdaTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/LambdaTest/StreamAPITest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/InetAddressTEst.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/TCPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/NetProgram/UDPTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ObjectInputOutputStream/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ObjectInputOutputStream/ObjectInputOutputStreamTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ObjectInputOutputStream/People.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ObjectInputOutputStream/RandomAccessFileTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/OtherClassTest/BigIntegerAndBigDecimalTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/OtherClassTest/SystemTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/ClothFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/DynamicProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/Human.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/HumanUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/MyInvocationHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/NikeClothFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/ProxyClothFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/ProxyFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/StaticProxyTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/ProxyMode/SuperMan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/SortTemplate/SortMethods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/GcdAndLcm.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/JiuJiuChengfabiao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/MultiThreadPrintNums.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/WhileTrueTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/YearTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ZhiShu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/二维数组遍历.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/杨辉三角.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/CompareTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/CompareTest$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/CompareTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/Goods.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/Test$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/compareTest/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/dateLearn/DateTimeTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/GenericClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/GenericExtends.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/GenericTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/Student.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer/CustomerDAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer/DAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer1/DAO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer1/DAOTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/generic/exer1/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/CallableTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/Clerk.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/Consumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/HelloThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/LockTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/MThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/MyThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/NumThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/Number.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/NumberThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/NumberThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/Producer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/ProductorAndConsumer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/RunnableImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/ThreadCommunicationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/ThreadExtendTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/ThreadMethodTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/ThreadPool.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/Win1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/AccountTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/Customer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/MyThread1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/MyThread2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/SynchronizedMethodRunnable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/SynchronizedMethodThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/ThreadDemo$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/ThreadDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/Window.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/Window1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/Window2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/Window3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/WindowsTicketRunnableImplTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/multiThread/exer/WindowsTicketsExtendsThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/oop/ArrayListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/oop/Circle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/oop/CircleTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/oop/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/oop/PersonTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/ClassLoaderTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/ReflectionTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/UseReflection.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/exer/Creature.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/exer/GetRuntimeClassTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/exer/MyAnnotation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/exer/MyInterface.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/reflection/exer/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/EHan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/Lhan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/Order.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/Other.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/SingleTonTest1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/SingleTonTest2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTon/Some.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTonThreadSafe/Bank.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTonThreadSafe/BankTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTonThreadSafe/DeadLock$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTonThreadSafe/DeadLock$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/singleTonThreadSafe/DeadLock.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/StringBufferBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/StringInterview.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/StringMethodTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/StringPackageCLass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/StringTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/exer/GetMaxSameString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/exer/IdeaDebug.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/stringLearn/exer/ReverseString.class" beforeDir="false" />
-    </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -450,18 +250,6 @@
       <recent name="com.ljw.Collection.SetTest" />
       <recent name="com.ljw.Collection.ListTest" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Application.Test11">
     <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -704,6 +492,7 @@
       <workItem from="1640835546277" duration="7101000" />
       <workItem from="1640861012222" duration="5710000" />
       <workItem from="1640943558727" duration="140000" />
+      <workItem from="1640943748737" duration="210000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
@@ -801,28 +590,18 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit all" />
