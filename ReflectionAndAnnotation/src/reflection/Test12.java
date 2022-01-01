@@ -1,15 +1,40 @@
 package reflection;
 
-import java.lang.annotation.ElementType;
-import java.lang.annotation.Target;
+import java.lang.annotation.*;
+import java.lang.reflect.Field;
 
 // 练习反射操作注解
 public class Test12 {
+    public static void main(String[] args) throws ClassNotFoundException, NoSuchFieldException {
+        Class c1 = Class.forName("reflection.Student2");
+
+        // 通过反射获取注解
+        Annotation[] annotations = c1.getAnnotations();
+        for (Annotation annotation : annotations) {
+            System.out.println(annotation);
+        }
+
+        // 获取类注解的value的值
+        Tablek tablek = (Tablek) c1.getAnnotation(Tablek.class);
+        String value = tablek.value();
+        System.out.println(value);
+
+        // 获取指定属性的注解的值
+        Field field = c1.getDeclaredField("name");
+        Fieldk annotation = field.getAnnotation(Fieldk.class);
+        System.out.println(annotation.columnName());
+        System.out.println(annotation.type());
+        System.out.println(annotation.length());
+    }
 }
 
+@Tablek(value = "db_student")
 class Student2 {
+    @Fieldk(columnName = "db_id", type = "int", length = 10)
     private int id;
+    @Fieldk(columnName = "db_age", type = "int", length = 10)
     private int age;
+    @Fieldk(columnName = "db_name", type = "varchar", length = 3)
     private String name;
 
     public Student2() {}
@@ -54,8 +79,18 @@ class Student2 {
     }
 }
 
+// 类名的注解
 @Target(ElementType.TYPE)
+@Retention(RetentionPolicy.RUNTIME)
 @interface Tablek {
     String value();
+}
 
+// 属性的注解
+@Target({ElementType.FIELD})
+@Retention(RetentionPolicy.RUNTIME)
+@interface Fieldk {
+    String columnName();
+    String type();
+    int length();
 }
