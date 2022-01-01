@@ -9,6 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
 <<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/JavaWebStatic/JavaWebStatic.iml" afterDir="false" />
@@ -25,6 +26,9 @@
       <change beforePath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/Test12.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/Test12.java" afterDir="false" />
 >>>>>>> Stashed changes
     </list>
+=======
+    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all" />
+>>>>>>> Stashed changes
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
