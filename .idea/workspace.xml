@@ -9,7 +9,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all" />
+    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/JavaWebStatic.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/src/main/java/com/example/javawebstatic/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
+    </list>
     <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +69,7 @@
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -207,6 +218,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -222,7 +234,8 @@
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/ReflectionAndAnnotation" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaWeb" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -251,21 +264,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test11">
-    <configuration name="Test07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test07" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.hello.html">
     <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection.Test08" />
       <module name="ReflectionAndAnnotation" />
@@ -332,6 +331,16 @@
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="MavendemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="mavendemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.maven.mavendemo.MavendemoApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -426,21 +435,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test07" />
       <item itemvalue="Application.Test08" />
       <item itemvalue="Application.Test09" />
       <item itemvalue="Application.Test10" />
       <item itemvalue="Application.Test11" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
+      <item itemvalue="Spring Boot.MavendemoApplication (1)" />
+      <item itemvalue="JavaScript Debug.hello.html" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.hello.html" />
         <item itemvalue="Application.Test11" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test09" />
         <item itemvalue="Application.Test08" />
-        <item itemvalue="Application.Test07" />
       </list>
     </recent_temporary>
   </component>
@@ -493,6 +503,7 @@
       <workItem from="1640861012222" duration="5710000" />
       <workItem from="1640943558727" duration="140000" />
       <workItem from="1640943748737" duration="210000" />
+      <workItem from="1640944016356" duration="2766000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
