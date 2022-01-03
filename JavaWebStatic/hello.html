@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+<!--    <style type="text/css">-->
+<!--        div {-->
+<!--            border: 1px solid green;-->
+<!--        }-->
+<!--    </style>-->
+    <link rel="stylesheet" type="text/css" href="1.css">
 </head>
-<body onclick="alert('hi')">
-hello<br/>world
+<!--<body onclick="alert('hi')">-->
+<body>
+<!--
+表单提交，数据没有发送给服务器
+1 表单没有name属性值
+2 单选 复选 下拉框没有value
+3 不在表单from标签中
+-->
+<form action="http://localhost:8080" method="get">
+    <input type="hidden" name="action" value="login">
+    <h1 align="center">用户注册</h1>
+    <table align="center">
+        <tr>
+            <td>用户名</td>
+            <td><input type="text" name="username" value="默认值"><br></td>
+        </tr>
+        <tr>
+            <td>用户密码</td>
+            <td><input type="password" name="password" value="abc"><br/></td>
+        </tr>
+        <tr>
+            <td>（单选）性别</td>
+            <td><input type="radio" name="sex" value="boy" checked="checked">男
+                <input type="radio" name="sex" value="girl">女<br>
+            </td>
+        </tr>
+        <tr>
+            <td>（复选）爱好</td>
+            <td><input type="checkbox" name="hobby" value="java"> Java
+                <input type="checkbox" name="hobby" value="c++"> c++ <br/></td>
+        </tr>
+        <tr>
+            <td>（下拉框）</td>
+            <td>
+                <select name="country">
+                    <option value="none">--请选择---</option>
+                    <option selected="selected" value="china">中国</option>
+                    <option value="usa">美国</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>文本输入</td>
+            <td><textarea rows="10" cols="20" name="desc">默认值</textarea><br></td>
+        </tr>
+        <tr>
+            <td>重置</td>
+            <td><input type="reset"><br></td>
+        </tr>
+        <tr>
+            <td>提交</td>
+            <td><input type="submit" value="提交"> <br></td>
+        </tr>
+        <tr>
+            <td>按钮</td>
+            <td><input type="button" value="提交"><br></td>
+        </tr>
+        <tr>
+            <td>文件</td>
+            <td><input type="file"><br></td>
+        </tr>
+    </table>
+</form>
+<!--<div style="border: 1px solid red">标签1</div>-->
+<div>标签2</div>
+<span>标签3</span>
+
+<div id="id1001">1001</div>
+<div id="id1002">1002</div>
 <hr/>
 </body>
 </html>

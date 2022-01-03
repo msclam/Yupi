@@ -9,27 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
-<<<<<<< Updated upstream
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/JavaWebStatic.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/hello.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/src/main/java/com/example/javawebstatic/HelloServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="cbfa5a14-d268-432a-a59e-a92112cdaa71" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/TestJavaScript.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/Test12.java" beforeDir="false" afterPath="$PROJECT_DIR$/ReflectionAndAnnotation/src/reflection/Test12.java" afterDir="false" />
->>>>>>> Stashed changes
+      <change beforePath="$PROJECT_DIR$/JavaWebStatic/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebStatic/hello.html" afterDir="false" />
     </list>
-=======
-    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all" />
->>>>>>> Stashed changes
-    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -273,11 +259,6 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-<<<<<<< Updated upstream
-  <component name="RunManager" selected="JavaScript Debug.hello.html">
-    <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test08" />
-=======
   <component name="RunManager" selected="Application.Test12">
     <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection.Test08" />
@@ -295,7 +276,6 @@
     </configuration>
     <configuration name="Test09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="reflection.Test09" />
->>>>>>> Stashed changes
       <module name="ReflectionAndAnnotation" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -464,26 +444,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Test12" />
       <item itemvalue="Application.Test08" />
       <item itemvalue="Application.Test09" />
       <item itemvalue="Application.Test10" />
       <item itemvalue="Application.Test11" />
-      <item itemvalue="Spring Boot.MavendemoApplication" />
-      <item itemvalue="Tomcat Server.Tomcat7.0.78" />
-<<<<<<< Updated upstream
-      <item itemvalue="Spring Boot.MavendemoApplication (1)" />
       <item itemvalue="JavaScript Debug.hello.html" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JavaScript Debug.hello.html" />
-=======
-      <item itemvalue="Application.Test12" />
+      <item itemvalue="Spring Boot.MavendemoApplication" />
+      <item itemvalue="Spring Boot.MavendemoApplication (1)" />
+      <item itemvalue="Tomcat Server.Tomcat7.0.78" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test12" />
->>>>>>> Stashed changes
         <item itemvalue="Application.Test11" />
         <item itemvalue="Application.Test10" />
         <item itemvalue="Application.Test09" />
@@ -538,13 +511,10 @@
       <workItem from="1640662822393" duration="4637000" />
       <workItem from="1640835546277" duration="7101000" />
       <workItem from="1640861012222" duration="5710000" />
-<<<<<<< Updated upstream
       <workItem from="1640943558727" duration="140000" />
       <workItem from="1640943748737" duration="210000" />
       <workItem from="1640944016356" duration="2766000" />
-=======
       <workItem from="1640916794077" duration="2283000" />
->>>>>>> Stashed changes
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>

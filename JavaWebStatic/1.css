@@ -1,0 +1,41 @@
+/*div {*/
+/*    border: 1px solid green;*/
+/*}*/
+
+/*span {*/
+/*    border: 1px solid red;*/
+/*}*/
+
+/*#id1001 {*/
+/*    border: 10px solid blue;*/
+/*    font-size: 30px;*/
+/*}*/
+
+div {
+    color: red;
+    border: 1px yellow solid;
+    width: 300px;
+    height: 300px;
+    background-color: green;
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+table {
+    border: 1px red solid;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px red solid;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
