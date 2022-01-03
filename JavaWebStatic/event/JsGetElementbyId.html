@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function onclickFun() {
+            var obj = document.getElementById("username");
+            var userSpan = document.getElementById("userSpan");
+
+            // alert(obj.value);
+            var usrname = obj.value;
+            var pattern = /^\w{5,12}$/;
+            if (pattern.test(usrname)) {
+                // alert("合法");
+                userSpan.innerHTML = "用户合法";
+            } else {
+                userSpan.innerHTML = "用户不合法";
+            }
+        }
+    </script>
+</head>
+<body>
+用户名<input type="text" id="username">
+<span id="userSpan" style="color: red"></span>
+<button onclick="onclickFun()">按钮</button>
+</body>
+</html>

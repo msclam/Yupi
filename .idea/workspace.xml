@@ -10,11 +10,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cbfa5a14-d268-432a-a59e-a92112cdaa71" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWebStatic/TestJavaScript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/JQuery/hello.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/JQuery/jq对象.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/event/JsGetElementbuName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/event/JsGetElementbyId.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/event/JsOnchange.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/event/JsOnclick.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/event/JsOnload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/event/JsSubmit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWebStatic/script/jquery-1.7.2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWebStatic/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebStatic/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWebStatic/TestJavaScript.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebStatic/TestJavaScript.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,20 +235,20 @@
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaWeb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/JavaWebStatic" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\Java\Yupi\JavaWebStatic" />
       <recent name="F:\project\Java\Yupi\JdbcTest\lib" />
       <recent name="F:\project\Java\Yupi\JdbcTest\src\com\atguigu7\daoEvolution" />
       <recent name="F:\project\Java\Yupi\JdbcTest" />
       <recent name="F:\project\Java\Yupi\JdbcTest\src\com\atguigu\statement\crud" />
-      <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src\com\ljw\IOStream" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\Java\IntellJ-workspace\Yupi\JavaBasic\src" />
@@ -259,77 +265,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test12">
-    <configuration name="Test08" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test08" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test09" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test09" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test10" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test11" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="reflection.Test12" />
-      <module name="ReflectionAndAnnotation" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.jq对象.html">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -344,7 +280,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/hello.html" useBuiltInWebServerPort="true">
+    <configuration name="JsGetElementbuName.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/event/JsGetElementbuName.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="JsGetElementbyId.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/event/JsGetElementbyId.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="JsSubmit.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/event/JsSubmit.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/JQuery/hello.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="jq对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/JQuery/jq对象.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="MavendemoApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -444,23 +392,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Test12" />
-      <item itemvalue="Application.Test08" />
-      <item itemvalue="Application.Test09" />
-      <item itemvalue="Application.Test10" />
-      <item itemvalue="Application.Test11" />
-      <item itemvalue="JavaScript Debug.hello.html" />
-      <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Spring Boot.MavendemoApplication (1)" />
+      <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.Tomcat7.0.78" />
+      <item itemvalue="JavaScript Debug.JsSubmit.html" />
+      <item itemvalue="JavaScript Debug.JsGetElementbyId.html" />
+      <item itemvalue="JavaScript Debug.JsGetElementbuName.html" />
+      <item itemvalue="JavaScript Debug.hello.html" />
+      <item itemvalue="JavaScript Debug.jq对象.html" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test12" />
-        <item itemvalue="Application.Test11" />
-        <item itemvalue="Application.Test10" />
-        <item itemvalue="Application.Test09" />
-        <item itemvalue="Application.Test08" />
+        <item itemvalue="JavaScript Debug.jq对象.html" />
+        <item itemvalue="JavaScript Debug.hello.html" />
+        <item itemvalue="JavaScript Debug.JsGetElementbuName.html" />
+        <item itemvalue="JavaScript Debug.JsGetElementbyId.html" />
+        <item itemvalue="JavaScript Debug.JsSubmit.html" />
       </list>
     </recent_temporary>
   </component>

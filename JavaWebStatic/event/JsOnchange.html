@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+      function onchangeFun() {
+          alert("静态");
+      }
+
+      window.onload = function () {
+          var obj = document.getElementById("select");
+          obj.onchange = function() {
+              alert("动态");
+          }
+      }
+    </script>
+</head>
+<body>
+<!--<select onchange="onchangeFun();">-->
+<!--    <option>&#45;&#45;女&#45;&#45;</option>-->
+<!--    <option>a</option>-->
+<!--    <option>b</option>-->
+<!--    <option>c</option>-->
+<!--</select>-->
+
+<select id="select">
+    <option>--女--</option>
+    <option>a</option>
+    <option>b</option>
+    <option>c</option>
+</select>
+</body>
+</html>

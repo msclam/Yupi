@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function onsubmitFun() {
+            alert("静态");
+            return false;
+        }
+    </script>
+</head>
+<body>
+
+<form action="https://localhost:8080" method="get" onsubmit="return onsubmitFun()">
+    <input type="submit" value="静态">
+</form>
+
+</body>
+</html>
