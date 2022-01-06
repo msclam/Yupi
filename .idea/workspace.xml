@@ -9,6 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="cbfa5a14-d268-432a-a59e-a92112cdaa71" name="Changes" comment="commit all">
       <change afterPath="$PROJECT_DIR$/JavaWeb/pom.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet.java" afterDir="false" />
@@ -65,7 +66,12 @@
       <change beforePath="$PROJECT_DIR$/JavaWebStatic/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebStatic/src/hello.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWebStatic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWebStatic/src/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JdbcTest/JDBCTest.iml" afterDir="false" />
+=======
+    <list default="true" id="a83fde5a-ac95-4f23-b119-0d042ec3e17a" name="Changes" comment="commit all">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
+    <list id="6676b60c-e2ab-4dd5-ba4b-16dee5dcd0af" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -467,11 +473,22 @@
       </method>
     </configuration>
     <list>
+<<<<<<< Updated upstream
       <item itemvalue="JavaScript Debug.hello.html" />
       <item itemvalue="JavaScript Debug.jq对象.html" />
       <item itemvalue="JUnit.Dom4jTest.test1" />
       <item itemvalue="JUnit.Dom4jTest.test2" />
       <item itemvalue="Tomcat Server.JavaWebTomcat 8.5.23" />
+=======
+      <item itemvalue="JavaScript Debug.JsSubmit.html" />
+      <item itemvalue="JavaScript Debug.JsGetElementbyId.html" />
+      <item itemvalue="JavaScript Debug.JsGetElementbuName.html" />
+      <item itemvalue="JavaScript Debug.hello.html" />
+      <item itemvalue="JavaScript Debug.jq对象.html" />
+      <item itemvalue="Spring Boot.MavendemoApplication (1)" />
+      <item itemvalue="Spring Boot.MavendemoApplication" />
+      <item itemvalue="Tomcat Server.Tomcat7.0.78" />
+>>>>>>> Stashed changes
     </list>
     <recent_temporary>
       <list>
