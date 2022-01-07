@@ -10,11 +10,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ef9a00-f730-43a7-9b35-2c783cdb6a49" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/servlet/HelloServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/test/Test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/ljw/javaweb/HelloServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/webapp/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/servlet/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/servlet/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/a.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +68,8 @@
         <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -231,7 +236,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/JdbcTest" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
@@ -335,8 +340,6 @@
       </method>
     </configuration>
     <configuration name="JavaWebTomcat 8.5.23" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="JavaWeb:war exploded">
@@ -428,8 +431,8 @@
       <item itemvalue="JavaScript Debug.jq对象.html" />
       <item itemvalue="JUnit.Dom4jTest.test1" />
       <item itemvalue="JUnit.Dom4jTest.test2" />
-      <item itemvalue="Tomcat Server.JavaWebTomcat 8.5.23" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
+      <item itemvalue="Tomcat Server.JavaWebTomcat 8.5.23" />
     </list>
     <recent_temporary>
       <list>
