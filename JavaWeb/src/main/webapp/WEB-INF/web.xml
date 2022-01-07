@@ -69,6 +69,10 @@
         <servlet-name>ContextServlet</servlet-name>
         <servlet-class>com.atguigu.servlet.ContextServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ContextServlet1</servlet-name>
+        <servlet-class>com.atguigu.servlet.ContextServlet1</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ContextServlet</servlet-name>
         <url-pattern>/contextServlet</url-pattern>
