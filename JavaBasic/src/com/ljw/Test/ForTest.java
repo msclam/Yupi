@@ -1,7 +1,5 @@
 package com.ljw.Test;
 
-import java.util.Arrays;
-
 /**
  * @author lanjuwen
  * @create 2021-10-17  17:20
@@ -26,15 +24,20 @@ public class ForTest {
 //        st.push(123);
 //        st.push(12);
 //        System.out.println(st.pop());
-        int[][] f = new int[10][10];
-        for (int[] arr : f) {
-            Arrays.fill(arr, 10);
-        }
-        for (int[] i : f) {
-            for (int j : i) {
-                System.out.print(j + " ");
-            }
-            System.out.println();
-        }
+//        int[][] f = new int[10][10];
+//        for (int[] arr : f) {
+//            Arrays.fill(arr, 10);
+//        }
+//        for (int[] i : f) {
+//            for (int j : i) {
+//                System.out.print(j + " ");
+//            }
+//            System.out.println();
+//        }
+
+        StringBuilder str = new StringBuilder();
+        str.append("123");
+        str.deleteCharAt(str.length() - 1);
+        System.out.println(str);
     }
 }

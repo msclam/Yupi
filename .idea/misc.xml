@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/Book" />
     <file type="web" url="file://$PROJECT_DIR$/JavaWeb" />
     <file type="web" url="file://$PROJECT_DIR$/JavaWebStatic" />
   </component>
@@ -9,6 +10,7 @@
       <list>
         <option value="$PROJECT_DIR$/mavendemo/pom.xml" />
         <option value="$PROJECT_DIR$/JavaWeb/pom.xml" />
+        <option value="$PROJECT_DIR$/Book/pom.xml" />
       </list>
     </option>
   </component>

@@ -10,16 +10,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ef9a00-f730-43a7-9b35-2c783cdb6a49" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/Book.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/dao/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/dao/impl/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/test/JdbcUtilsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/test/UserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/test/UserServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/utils/JdbcUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/web/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/atguigu/web/RegistServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/com/example/book/HelloServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/src/jdbc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/lib/commons-dbutils-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/lib/druid-1.1.9.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/lib/hamcrest-core-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/lib/junit-4.12.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/cart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/cart/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/manager/book_edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/manager/book_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/manager/manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/manager/order_manager.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/order/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/user/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/user/login_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/user/regist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/pages/user/regist_success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/static/img/code.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/static/img/default.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/static/img/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/static/img/pwd-icons-new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Book/src/main/webapp/static/script/jquery-1.7.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ForwardC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ParameterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/RequestApiServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Response1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Response2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ResponseIOServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Servlet1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Servlet2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/a/b/c.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/webapp/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/a.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/servlet/HelloServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/servlet/HelloServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/index_old.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/servlet/ContextServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/classes/com/atguigu/servlet/ContextServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/a.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,8 +122,8 @@
         <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -234,20 +288,20 @@
     <property name="database.console.LAST_STATE" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/JdbcTest/src/com/atguigu7/daoEvolution/junit" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/JdbcTest" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Book/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.7-bin.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15242718" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\project\Java\Yupi\Book\src\main\webapp" />
+      <recent name="F:\project\Java\Yupi\Book\src\main\java" />
+      <recent name="F:\project\Java\Yupi\JavaWeb\src\main\java\com\atguigu\servlet" />
+      <recent name="F:\project\Java\Yupi\JavaWeb\src\main\webapp" />
       <recent name="F:\project\Java\Yupi\JavaWeb\src\main\webapp\WEB-INF\lib" />
-      <recent name="F:\project\Java\Yupi\JavaWebStatic\bookStatic\lib" />
-      <recent name="F:\project\Java\Yupi\JavaWebStatic\bookStatic\src\com.atguigu.projo" />
-      <recent name="F:\project\Java\Yupi\JavaWebStatic\bookStatic\scr" />
-      <recent name="F:\project\Java\Yupi\JavaWebStatic\bookStatic" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\project\Java\Yupi\JavaWebStatic\src" />
@@ -265,27 +319,37 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.JavaWebTomcat 8.5.23">
-    <configuration default="true" type="Application" factoryName="Application">
+  <component name="RunManager" selected="Application.ForTest">
+    <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ljw.Test.ForTest" />
+      <module name="JavaBasic" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ljw.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Dom4jTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="bookstatic" />
+    <configuration name="JdbcUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.utils.JdbcUtils" />
+      <module name="Book" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.atguigu.projo.*" />
+          <option name="PATTERN" value="com.atguigu.utils.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.atguigu.projo" />
-      <option name="MAIN_CLASS_NAME" value="com.atguigu.projo.Dom4jTest" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -308,6 +372,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JdbcUtilsTest.testJdbcUtils" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.JdbcUtilsTest" />
+      <option name="METHOD_NAME" value="testJdbcUtils" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDaoTest.queryUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Book" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.test.UserDaoTest" />
+      <option name="METHOD_NAME" value="queryUserByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -315,12 +415,6 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="hello.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/JQuery/hello.html">
-      <method v="2" />
-    </configuration>
-    <configuration name="jq对象.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Yupi/JavaWebStatic/JQuery/jq对象.html">
-      <method v="2" />
     </configuration>
     <configuration name="MavendemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="mavendemo" />
@@ -337,6 +431,92 @@
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Book8.5.23" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="Book:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Book" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="2f622dc8-8b71-453a-8a0b-b93ead3d5465" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="12329" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Book:war exploded" />
+        </option>
       </method>
     </configuration>
     <configuration name="JavaWebTomcat 8.5.23" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
@@ -427,19 +607,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.hello.html" />
-      <item itemvalue="JavaScript Debug.jq对象.html" />
-      <item itemvalue="JUnit.Dom4jTest.test1" />
+      <item itemvalue="Application.JdbcUtils" />
       <item itemvalue="JUnit.Dom4jTest.test2" />
+      <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtils" />
+      <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.JavaWebTomcat 8.5.23" />
+      <item itemvalue="Tomcat Server.Book8.5.23" />
+      <item itemvalue="Application.ForTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForTest" />
+        <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
+        <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtils" />
+        <item itemvalue="Application.JdbcUtils" />
         <item itemvalue="JUnit.Dom4jTest.test2" />
-        <item itemvalue="JUnit.Dom4jTest.test1" />
-        <item itemvalue="JavaScript Debug.jq对象.html" />
-        <item itemvalue="JavaScript Debug.hello.html" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +632,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cbfa5a14-d268-432a-a59e-a92112cdaa71" name="Changes" comment="" />
+      <changelist id="e0ef9a00-f730-43a7-9b35-2c783cdb6a49" name="Changes" comment="" />
       <created>1638783264490</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -497,6 +680,7 @@
       <workItem from="1641374550127" duration="4127000" />
       <workItem from="1641385822848" duration="76000" />
       <workItem from="1641385967476" duration="8689000" />
+      <workItem from="1641612445173" duration="4836000" />
     </task>
     <task id="LOCAL-00001" summary="commit all">
       <created>1638610932946</created>
