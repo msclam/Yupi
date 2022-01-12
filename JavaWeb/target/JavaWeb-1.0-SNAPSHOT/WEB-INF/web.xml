@@ -163,4 +163,13 @@
         <servlet-name>Response2</servlet-name>
         <url-pattern>/response2</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>AjaxServlet</servlet-name>
+        <servlet-class>com.atguigu.servlet.AjaxServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AjaxServlet</servlet-name>
+        <url-pattern>/ajaxServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
