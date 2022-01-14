@@ -10,41 +10,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e0ef9a00-f730-43a7-9b35-2c783cdb6a49" name="Changes" comment="commit all">
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/i18n/I18nTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/json/JsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/json/PersonListType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/json/PersonMapType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/pojo/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/AjaxServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/i18n_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/i18n_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/Jquery_Ajax_request.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/ajax.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/i18n.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/i18n_fmt.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/json.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/script/jquery-1.7.2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/JavaWeb.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/ContextServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/ContextServlet1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ContextServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/ContextServlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ForwardC.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/ForwardC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/HelloServlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/HelloServlet3.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/HelloServlet3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ParameterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/ParameterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/RequestApiServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/RequestApiServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Response1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/Response1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Response2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/Response2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/ResponseIOServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/ResponseIOServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Servlet1.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/Servlet1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/servlet/Servlet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/servlet/Servlet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/atguigu/test/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/atguigu/test/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/java/com/ljw/javaweb/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/src/com/ljw/javaweb/HelloServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/JavaWeb-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book/Book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Book/Book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +114,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Java\RepMaven" />
-        <option name="mavenHome" value="D:/Java/JavaDevTool/apache-maven-3.2.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Java/JavaDevTool/apache-maven-3.2.2" />
         <option name="userSettingsFile" value="D:\Java\JavaDevTool\apache-maven-3.2.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -290,7 +261,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.I18nTest.testI18n">
+  <component name="RunManager" selected="Application.ForTest">
     <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljw.Test.ForTest" />
       <module name="JavaBasic" />
@@ -585,17 +556,17 @@
       <item itemvalue="Application.ForTest" />
       <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtils" />
       <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
+      <item itemvalue="JUnit.I18nTest.testI18n" />
+      <item itemvalue="JUnit.I18nTest.testLocale" />
       <item itemvalue="Spring Boot.MavendemoApplication" />
       <item itemvalue="Tomcat Server.JavaWebTomcat 8.5.23" />
       <item itemvalue="Tomcat Server.Book8.5.23" />
-      <item itemvalue="JUnit.I18nTest.testI18n" />
-      <item itemvalue="JUnit.I18nTest.testLocale" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForTest" />
         <item itemvalue="JUnit.I18nTest.testI18n" />
         <item itemvalue="JUnit.I18nTest.testLocale" />
-        <item itemvalue="Application.ForTest" />
         <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
         <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtils" />
       </list>
