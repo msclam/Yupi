@@ -11,6 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="e0ef9a00-f730-43a7-9b35-2c783cdb6a49" name="Changes" comment="commit all">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book/Book.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Book/Book.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaBasic/src/com/ljw/Test/ForTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaWeb/target/classes/com/atguigu/json/JsonTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaBasic/com/ljw/Test/ForTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +114,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Java\RepMaven" />
-        <option name="mavenHome" value="D:/Java/JavaDevTool/apache-maven-3.2.2" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../Java/JavaDevTool/apache-maven-3.2.2" />
         <option name="userSettingsFile" value="D:\Java\JavaDevTool\apache-maven-3.2.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -256,7 +261,7 @@
       <recent name="com.ljw.Collection.ListTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.I18nTest.testI18n">
+  <component name="RunManager" selected="Application.ForTest">
     <configuration name="ForTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ljw.Test.ForTest" />
       <module name="JavaBasic" />
@@ -559,9 +564,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ForTest" />
         <item itemvalue="JUnit.I18nTest.testI18n" />
         <item itemvalue="JUnit.I18nTest.testLocale" />
-        <item itemvalue="Application.ForTest" />
         <item itemvalue="JUnit.UserDaoTest.queryUserByUsername" />
         <item itemvalue="JUnit.JdbcUtilsTest.testJdbcUtils" />
       </list>
